@@ -1,10 +1,11 @@
 ---
 layout: page
-title: About
-permalink: /about/
-tags: about
+title: whoami
+permalink: /whoami/
+tags: whoami
 ---
 
+Reach me at: me@haymiz.dev
 This Jekyll theme was crafted with <3 by [John Otander](https://johno.com/)
 ([@4lpine](https://twitter.com/4lpine)).
 
