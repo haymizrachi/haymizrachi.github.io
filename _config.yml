@@ -4,7 +4,7 @@ email:       me@haymiz.dev
 author:      Hay Mizrachi
 description: "סייבר, האקינג, ומה שביניהם.."
 baseurl:     ""
-url:         "https://haymiz.dev"
+url:         "https://haymizrachi.github.io/"
 date_format: "%b %-d, %Y"
 header_pages:
  - blog.md
