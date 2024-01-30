@@ -48,7 +48,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username:haymizrachi
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
@@ -56,7 +56,7 @@ twitter_username:
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username:hay-mizrachi
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -80,8 +80,8 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: 'חדש'
+    older: 'ישן'
   share_buttons:
     text:         'Share this post!'
     facebook:     'Share on Facebook'
