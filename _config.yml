@@ -2,7 +2,7 @@
 title:       hacker@home:~/blog$
 email:       me@haymiz.dev
 author:      Hay Mizrachi
-description: "סייבר, האקינג, ומה שביניהם.."
+description: "A Diary of a Hacker"
 baseurl:     ""
 url:         "https://haymizrachi.github.io"
 date_format: "%b %-d, %Y"
@@ -80,8 +80,8 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'חדש'
-    older: 'ישן'
+    newer: 'Newer'
+    older: 'Older'
   share_buttons:
     text:         'Share this post!'
     facebook:     'Share on Facebook'
