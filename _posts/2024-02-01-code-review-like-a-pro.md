@@ -26,7 +26,7 @@ There are different ways to investigate code, which are:
 
 Lets break those things up:
 
-cloc - is reffering to 'Count Lines of Code'
+cloc[^1] - is reffering to 'Count Lines of Code'
 cloc --show-lang
 
 > ABAP                       (abap)<br />
