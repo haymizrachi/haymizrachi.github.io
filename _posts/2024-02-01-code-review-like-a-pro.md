@@ -26,8 +26,10 @@ There are numerous different ways to investigate code, which are:
 
 Lets break those things up:
 
-cloc[^1] - is reffering to 'Count Lines of Code'
-cloc --show-lang
+We can use the open source cloc[^1]('Count Lines of Code') tool, which quickly assess the files metadata - such as comments, blank lines, and the actual code count.
+This can reveal us some first imperssions on the material before we get our hands dirty with the code.
+
+__Note:__ The 'cloc --show-lang' command will shows us the code languages that supported by this tool:
 
 > ABAP                       (abap)<br />
 ActionScript               (as)<br />
@@ -44,7 +46,6 @@ Arduino Sketch             (ino, pde)<br />
 AsciiDoc                   (adoc, asciidoc)<br />
 ASP                        (asa, ashx, asp, axd)
 <br />
-..</br>
 ..</br>
 ..</br>
 
