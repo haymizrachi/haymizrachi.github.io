@@ -1,8 +1,8 @@
 ---
 layout:     post
 title:      Code Review Like a Pro
-date:       2021-02-01 21:00:00
-summary:    Some hacking methodology to review source code vulnerabilities
+date:       2024-02-01 21:00:00
+summary:    Hacking methodology to discover source code vulnerabilities.
 categories: jekyll pixyll
 ---
 
