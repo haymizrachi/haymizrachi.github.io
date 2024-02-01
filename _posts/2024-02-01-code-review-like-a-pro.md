@@ -18,7 +18,7 @@ So, let's begin...
 
 ### Approaches to perform Code Review:
 
-There are different ways to investigate code, which are:
+There are numerous different ways to investigate code, which are:
 * Covering code line by line
 * Focusing on low-hanging fruit functions such as Login, Registration, and Password Reset mechanisms
 * Greping regex keywords for quick-wins
