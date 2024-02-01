@@ -61,4 +61,4 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 ---
 
-[^1]: cloc - https://github.com/AlDanial/cloc
+[^1]: cloc - [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc)
