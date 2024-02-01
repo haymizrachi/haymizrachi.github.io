@@ -56,7 +56,8 @@ or add, features.
 
 Thank you for reading!
 
-__Disclaimer:__ This material is for informational purposes only, and should not be construed as legal advice or opinion. For actual legal advice, you should consult with professional legal services. ↩
+<br />
+__Disclaimer:__ This material is for informational purposes only, and should not be construed as legal advice or opinion. For actual legal advice, you should consult with professional legal services.
 
 ---
 
