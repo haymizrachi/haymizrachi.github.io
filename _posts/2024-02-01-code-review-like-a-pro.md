@@ -26,7 +26,7 @@ There are numerous different ways to investigate code, which are:
 
 Lets break those things up:
 
-A cool tool that I've discovered lately called cloc[^1] ('Count Lines of Code') that quickly assess the files metadata - such as comments, blank lines, and the actual code count.
+A cool tool that I've discovered lately called cloc[^1] ('Count Lines of Code') that quickly assess the files content - such as comments, blank lines, and the actual code count.
 This tool can give us some first imperssions on the material before we get our hands dirty with the code.
 
 __Note:__ The 'cloc --show-lang' command will shows us the code languages that supported by this tool:
