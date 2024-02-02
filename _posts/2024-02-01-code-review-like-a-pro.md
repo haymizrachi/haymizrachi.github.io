@@ -79,8 +79,7 @@ ASP                        (asa, ashx, asp, axd)
 
 ### Conclusion
 
-Checkout the [GitHub repository](https://github.com/johno/pixyll) to request,
-or add, features.
+I recommened the OSWE[^2] course by Offensive Security for those who require additional practice covering all the necessary knowledge to become a master Security Code Reviewer.
 
 Thank you for reading!
 
@@ -89,4 +88,5 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 ---
 
-[^1]: cloc - [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc)
+[^1]: cloc - [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc).
+[^2]: cloc - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
