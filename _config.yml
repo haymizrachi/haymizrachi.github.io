@@ -125,7 +125,6 @@ plugins:
   - jemoji
 # https://github.com/jekyll/jekyll/issues/2938
 exclude:
-#  - Gemfile
   - Gemfile.lock
   - Rakefile
   - README.md
