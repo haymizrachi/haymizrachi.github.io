@@ -14,9 +14,9 @@ Today, I'm going to share with you my research methodology for analyzing and rev
 <br /><br />
 The skill of finding bugs and weaknesses inside a code that you didn't write and getting into the developer mind's required to be familiar with code reading - __and a lot from it__, but I can promise to you, it's will <ins>get much easier over time</ins> as long as you practice and deal with code on your daily basis. 
 
-So, let's begin...
+![code_review_meme](/images/code_review_meme.jpg)
 
-_![code_review_meme](/images/code_review_meme.jpg)
+So, let's begin...
 
 ### Approaches to perform Code Review:
 
