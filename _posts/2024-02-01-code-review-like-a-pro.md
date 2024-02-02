@@ -14,11 +14,8 @@ Today, I'm going to share with you my research methodology for analyzing and rev
 <br /><br />
 The skill of finding bugs and weaknesses inside a code that you didn't write and getting into the developer mind's required to be familiar with code reading - __and a lot from it__, but I can promise to you, it's will <ins>get much easier over time</ins> as long as you practice and deal with code on your daily basis. 
 
-![code_review_meme](/images/code_review_meme.jpg)
-
 <p align="center">
   <img src="{{ site.url }}/images/code_review_meme.jpg" alt="CR meme"/>
-  ![code_review_meme](/images/code_review_meme.jpg)
 </p>
 
 So, let's begin...
