@@ -46,8 +46,7 @@ Arduino Sketch             (ino, pde)<br />
 AsciiDoc                   (adoc, asciidoc)<br />
 ASP                        (asa, ashx, asp, axd)
 <br />
-..</br>
-..</br>
+..
 
 ### Conclusion
 
