@@ -16,7 +16,7 @@ The skill of finding bugs and weaknesses inside a code that you didn't write and
 
 So, let's begin...
 
-![code_review_meme](/images/code_review_meme.jpg)
+_![code_review_meme](/images/code_review_meme.jpg)
 
 ### Approaches to perform Code Review:
 
