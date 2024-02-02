@@ -8,7 +8,7 @@ categories: jekyll pixyl
 
 Hello everyone!
 <br />
-Welcome to my first blog post! I'm excited to be here :blush:
+Welcome to my first blog post! I'm excited to be here :smiley:
 
 Today, I'm going to share with you my research methodology for analyzing and reviewing source code applications to identifying vulnerabilities on Whitebox engagements. 
 <br /><br />
@@ -28,9 +28,24 @@ There are numerous different ways to investigate code, which are:
 * Greping regex keywords for quick-wins
 * Following user input using bottom up and top down approaches
 
-Lets break those things up:
+Let's break those things up:
 
-A cool tool that I've discovered recently called cloc[^1] ('Count Lines of Code') that quickly assess the files content - such as comments, blank lines, and the actual code count.
+### The Power of Tools
+
+In this section, we will discuss some awesome tools that can save us a lot of time during our research and automate our efforts.
+
+One of the main thoughts that need to be in your head is - 'How can I save time to make the process more efficient and more focused and achieving better results than the manual process?'
+
+As showed earlier, the process of covering line by line, code by code is  very time-consuming process that we want to avoid, and we aim to avoid it. Therefore, we seek to apply the best fit approach discussed above to the specific code project.
+
+* cloc
+* graudit
+* TruffleHog
+* Driftwood
+
+A Security Researcher without a tools is like a baker without his 
+
+A cool tool that I've discovered recently called `cloc`[^1] ('Count Lines of Code') that quickly assess the files content - such as comments, blank lines, and the actual code count.
 This tool can give us some first imperssions on the material before we get our hands dirty with the code.
 
 __Note:__ The 'cloc --show-lang' command will shows us the code languages that supported by this tool:
