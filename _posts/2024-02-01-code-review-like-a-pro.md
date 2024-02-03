@@ -42,7 +42,7 @@ Focusing on low-hanging fruit functions involves prioritizing web application me
 
 ### The Power of Tools
 
-There is no Cyber Security without tools gentelmens, so we need to discuss on awesome tools that can save us a lot of time during our research and automate our efforts.
+A Security Researcher without his tools is like a baker without his mixer gentelmens, so we need to discuss on some tools that can save us a lot of time during our research and automate our efforts.
 
 One of the main thoughts that need to be in your head is - 'How can I save time to make the process more efficient and more focused and achieving better results than the manual process?'
 
@@ -52,8 +52,6 @@ As showed earlier, the process of covering line by line, code by code is  very t
 * graudit
 * TruffleHog
 * Driftwood
-
-A Security Researcher without a tools is like a baker without his 
 
 A cool tool that I've discovered recently called `cloc`[^1] ('Count Lines of Code') that quickly assess the files content - such as comments, blank lines, and the actual code count.
 This tool can give us some first imperssions on the material before we get our hands dirty with the code.
