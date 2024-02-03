@@ -42,7 +42,7 @@ Focusing on low-hanging fruit functions involves prioritizing web application me
 
 ### The Power of Tools
 
-In this section, we will discuss some awesome tools that can save us a lot of time during our research and automate our efforts.
+There is no Cyber Security without tools gentelmens, so we need to discuss on awesome tools that can save us a lot of time during our research and automate our efforts.
 
 One of the main thoughts that need to be in your head is - 'How can I save time to make the process more efficient and more focused and achieving better results than the manual process?'
 
