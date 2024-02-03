@@ -42,7 +42,7 @@ Focusing on low-hanging fruit functions involves prioritizing web application me
 
 ### The Power of Tools
 
-A Security Researcher without his tools is like a baker without his mixer gentelmens, so we need to discuss on some tools that can save us a lot of time during our research and automate our efforts.
+A Security Researcher without his tools is like a baker without his mixer gentlemens, so we need to discuss on some tools that can save us a lot of time during our research and automate our efforts.
 
 One of the main thoughts that need to be in your head is - 'How can I save time to make the process more efficient and more focused and achieving better results than the manual process?'
 
