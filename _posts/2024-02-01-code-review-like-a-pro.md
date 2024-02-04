@@ -30,11 +30,11 @@ There are numerous different ways to investigate code, which are:
 
 Let's break those things up:
 
-<ins>Covering line by line</ins>
+<ins>Covering line by line -</ins>
 <br />
 In cases where the project we are checking is considered large, this approach will consume a significant amount of time to cover end to end. Therefore, it is more suitable for projects with a small number of code files to cover.
 
-<ins>Focus on Low-hanging fruit functions</ins>
+<ins>Focus on Low-hanging fruit functions -</ins>
 <br />
 Focusing on low-hanging fruit functions involves prioritizing web application mechanisms where the severity of identifying weaknesses and vulnerabilities is higher due to the complexity of requirements, such as validations, checks, and dependencies on other internal functions, thus we will begin looking on functions such as Login, Register, Forgot Password, Upload Files, and more.
 
