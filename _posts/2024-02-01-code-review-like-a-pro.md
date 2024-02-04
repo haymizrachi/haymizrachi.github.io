@@ -55,9 +55,9 @@ Let's explore the following tools:
 * TruffleHog
 * Driftwood
 
-### cloc
+### cloc:
 A cool tool that I've discovered recently called `cloc`[^1] ('Count Lines of Code') that quickly assess the files content - such as comments, blank lines, and the actual code count.
-This tool can give us some first imperssions on the material before we get our hands dirty with the code.
+This tool can give us some first imperssions on the material before we get our hands dirty with the code:
 
 <p align="center">
   <img src="{{ site.url }}/images/cloc.png" alt="cloc_output" />
@@ -83,8 +83,8 @@ ASP                        (asa, ashx, asp, axd)
 <br />
 ..
 
-### graudit
-Another tool that can save us time during our research is the `graudit`[^2] ('grep rough audit') tool. This tool is signature-based that utilizes a large dataset of popular programming codes. Behind the scenes, it runs predefined keywords using the `grep` utility with severity to identify vulnerabilities in a code section.
+### graudit:
+Another tool that can save us time during our research is the `graudit`[^2] ('grep rough audit') tool. This tool is signature-based that utilizes a large dataset of popular programming codes. Behind the scenes, it runs predefined keywords using the `grep` utility with severity to identify vulnerabilities in a code section:
 
 <p align="center">
   <img src="{{ site.url }}/images/graudit.png" alt="graudit_output" />
