@@ -12,7 +12,7 @@ Welcome to my first blog post! I'm excited to be here :smiley:
 
 Today, I'm going to share with you my research methodology for analyzing and reviewing source code applications to identifying vulnerabilities on Whitebox engagements. 
 <br /><br />
-The skill of finding bugs and weaknesses inside a code that you didn't write and getting into the developer mind's required to be familiar with code reading - __and a lot from it__, but I can promise to you, it's will <ins>get much easier over time</ins> as long as you practice and deal with code on your daily basis. 
+The skill of finding bugs and weaknesses inside a code that you don't familiar with and getting into the developer mind's required to be experienced with code reading - __and a lot from it__, but I can promise to you, it's will <ins>get much easier over time</ins> as long as you practice and deal with code on your daily basis. 
 
 <p align="center">
   <img src="{{ site.url }}/images/code_review_meme.jpg" alt="CR meme"/>
