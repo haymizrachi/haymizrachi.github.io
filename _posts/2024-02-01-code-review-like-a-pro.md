@@ -75,6 +75,11 @@ ASP                        (asa, ashx, asp, axd)
 <br />
 ..
 
+Another tool that can save us time during our research is the `graudit` tool. 
+This tool is a signature based of a large dataset of popular programming codes that behind the scenes running a big `grep` command with pre-defind keywords with a severity to find vulnerabilities inside them. 
+
+An example of an output could be a function that the user input is depends on him, or an SQL statement that didn't pass a sanitation check before the query is executed.
+
 ### Conclusion
 
 I highly recommend the OSWE[^2] course by Offensive Security for those who require additional practice covering all the necessary knowledge to become a master Security Code Reviewer.
