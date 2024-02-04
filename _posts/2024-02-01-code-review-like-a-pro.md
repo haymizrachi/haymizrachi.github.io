@@ -79,7 +79,7 @@ ASP                        (asa, ashx, asp, axd)
 ..
 
 <p align="center">
-  <img src="{{ site.url }}/images/graudit.png" alt="cloc_output" />
+  <img src="{{ site.url }}/images/cloc.png" alt="cloc_output" />
 </p>
 
 ### graudit
