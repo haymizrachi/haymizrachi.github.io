@@ -62,7 +62,7 @@ This tool can give us some first imperssions on the material before we get our h
 <p align="center">
   <img src="{{ site.url }}/images/cloc.png" alt="cloc_output" />
 </p>
-<p align="center">*Executing cloc on specific PHP file*</p>
+<p align="center">Executing cloc on specific PHP file</p>
 
 __Note:__ The 'cloc --show-lang' command will shows us the code languages that supported by this tool:
 
@@ -89,7 +89,7 @@ Another tool that can save us time during our research is the `graudit`[^2] ('gr
 <p align="center">
   <img src="{{ site.url }}/images/graudit.png" alt="graudit_output" />
 </p>
-<p align="center">*Executing graudit on bWAPP folder containing PHP files*</p>
+<p align="center">Executing graudit on bWAPP folder containing PHP files</p>
 
 An output results of this tool could be a  line focus on a function that depends on user input or an SQL statement executed without passing through a sanitation check before, or for god's sake - existence of command execution functions that controlled by the end user. 
 
