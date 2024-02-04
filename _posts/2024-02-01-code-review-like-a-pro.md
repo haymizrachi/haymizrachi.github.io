@@ -15,7 +15,7 @@ Today, I'm going to share with you my research methodology for analyzing and rev
 The skill of finding bugs and weaknesses inside a code that you don't familiar with and getting into the developer mind's required to be experienced with code reading - __and a lot of it__, but I can promise to you, it's will <ins>get much easier over time</ins> as long as you practice and deal with code on your daily basis. 
 
 <p align="center">
-  <img src="{{ site.url }}/images/code_review_meme.jpg" alt="CR meme"/>
+  <img src="{{ site.url }}/images/code_review_meme.jpg" alt="shut_up_please" />
 </p>
 
 So, let's begin...
@@ -79,6 +79,10 @@ Another tool that can save us time during our research is the `graudit`[^2] ('gr
 
 An output results of this tool could be a  line focus on a function that depends on user input or an SQL statement executed without passing through a sanitation check before, or for god's sake - existence of command execution functions that controlled by the end user. 
 
+<p align="center">
+  <img src="{{ site.url }}/images/rce_born.jpg" alt="how_rce_are_born" />
+</p>
+
 ### Conclusion
 
 I highly recommend the OSWE[^3] course by Offensive Security for those who require additional practice covering all the necessary knowledge to become a master Security Code Reviewer.
@@ -91,4 +95,5 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 ---
 
 [^1]: cloc - [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc).
-[^2]: OSWE - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
+[^2]: graudit - [https://github.com/wireghoul/graudit](https://github.com/wireghoul/graudit).
+[^3]: OSWE - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
