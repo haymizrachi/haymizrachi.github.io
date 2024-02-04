@@ -77,6 +77,10 @@ ASP                        (asa, ashx, asp, axd)
 
 Another tool that can save us time during our research is the `graudit`[^2] ('grep rough audit') tool. This tool is signature-based that utilizes a large dataset of popular programming codes. Behind the scenes, it runs predefined keywords using the `grep` utility with severity to identify vulnerabilities in a code section.
 
+<p align="center">
+  <img src="{{ site.url }}/images/graudit.png" alt="graudit_output" />
+</p>
+
 An output results of this tool could be a  line focus on a function that depends on user input or an SQL statement executed without passing through a sanitation check before, or for god's sake - existence of command execution functions that controlled by the end user. 
 
 <p align="center">
