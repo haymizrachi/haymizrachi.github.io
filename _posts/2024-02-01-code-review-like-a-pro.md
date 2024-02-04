@@ -119,4 +119,4 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 [^1]: cloc - [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc).
 [^2]: graudit - [https://github.com/wireghoul/graudit](https://github.com/wireghoul/graudit).
-[^3]: OSWE - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
+[^3]: WEB-300 - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
