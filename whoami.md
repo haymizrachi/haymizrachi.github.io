@@ -10,6 +10,9 @@ I'm here to break things and uncover life's uncertainties.
 
 Reach me at: me@haymiz.dev
 
-{% if site.show_post_footers %}
-  {% include post_footer.html %}
-{% endif %}
+<div class="py2 post-footer">
+  <img src="{{ site.baseurl }}/images/me.jpg" alt="Hay Mizrachi" class="avatar" />
+  <p>
+    Follow me on <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a>.
+  </p>
+</div>
