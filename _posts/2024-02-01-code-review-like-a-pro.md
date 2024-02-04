@@ -75,11 +75,9 @@ ASP                        (asa, ashx, asp, axd)
 <br />
 ..
 
-Another tool that can save us time during our research is the `graudit`[^2] tool. This tool is signature-based and utilizes a large dataset of popular programming codes. Behind the scenes, it runs predefined keywords using the `grep` utility with severity to identify vulnerabilities within them.
+Another tool that can save us time during our research is the `graudit`[^2] tool. This tool is signature-based and utilizes a large dataset of popular programming codes. Behind the scenes, it runs predefined keywords using the `grep` utility with severity to identify vulnerabilities in a code section.
 
-An example of an output could be a function that the user input is depends on him, or an SQL statement that didn't pass a sanitation check before the query is executed.
-
-An example of an output could involve a function that depends on user input or an SQL statement executed without passing through a sanitation check before.
+An output results of this tool could be a  line focus on a function that depends on user input or an SQL statement executed without passing through a sanitation check before, or for god's sake - existing of command execution functions that controlled by the end user. 
 
 ### Conclusion
 
