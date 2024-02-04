@@ -48,11 +48,14 @@ One of the main thoughts that need to be in your head is - 'How can I save time 
 
 As showed earlier, the process of covering line by line, code by code is  very time-consuming process that we want to avoid. Therefore, we seek to apply the best fit approach discussed above to the specific code project we handle with.
 
+"Let's explore the following tools:
+
 * cloc
 * graudit
 * TruffleHog
 * Driftwood
 
+### cloc
 A cool tool that I've discovered recently called `cloc`[^1] ('Count Lines of Code') that quickly assess the files content - such as comments, blank lines, and the actual code count.
 This tool can give us some first imperssions on the material before we get our hands dirty with the code.
 
@@ -79,6 +82,7 @@ ASP                        (asa, ashx, asp, axd)
   <img src="{{ site.url }}/images/graudit.png" alt="cloc_output" />
 </p>
 
+### graudit
 Another tool that can save us time during our research is the `graudit`[^2] ('grep rough audit') tool. This tool is signature-based that utilizes a large dataset of popular programming codes. Behind the scenes, it runs predefined keywords using the `grep` utility with severity to identify vulnerabilities in a code section.
 
 <p align="center">
@@ -90,6 +94,14 @@ An output results of this tool could be a  line focus on a function that depends
 <p align="center">
   <img src="{{ site.url }}/images/rce_born.jpg" alt="how_rce_are_born" />
 </p>
+
+### TruffleHog
+
+XXXXXXXXXXXXXXXXXX
+
+### Driftwood
+
+XXXXXXXXXXXXXXXXXX
 
 ### Conclusion
 
