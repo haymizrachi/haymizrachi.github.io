@@ -44,7 +44,7 @@ Focusing on low-hanging fruit functions involves prioritizing web application me
 
 A Security Researcher without his tools is like a baker without his mixer gentlemens, so we need to discuss on some tools that can save us a lot of time during our research and automate our efforts.
 
-One of the main thoughts that need to be in your head is - 'How can I save time to make the process more efficient and more focused and achieving better results than the manual process?'
+One of the main thoughts that need to be in your head is - 'How can I save time to make the process more efficient and more focused to achieving better results than the manual process?'
 
 As showed earlier, the process of covering line by line, code by code is  very time-consuming process that we want to avoid. Therefore, we seek to apply the best fit approach discussed above to the specific code project we handle with.
 
