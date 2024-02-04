@@ -79,6 +79,8 @@ Another tool that can save us time during our research is the `graudit`[^2] tool
 
 An example of an output could be a function that the user input is depends on him, or an SQL statement that didn't pass a sanitation check before the query is executed.
 
+An example of an output could involve a function that depends on user input or an SQL statement executed without passing through a sanitation check before.
+
 ### Conclusion
 
 I highly recommend the OSWE[^3] course by Offensive Security for those who require additional practice covering all the necessary knowledge to become a master Security Code Reviewer.
