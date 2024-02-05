@@ -48,7 +48,7 @@ One of the main thoughts that need to be in your head is - 'How can I save time 
 
 As discussed earlier, the process of covering line by line, code by code is  very time-consuming process that we want to avoid. Therefore, we seek to apply the best fit approach presented above to the specific code project we handle with.
 
-Let's explore the following tools:
+Let's explore some awesome tools:
 
 * cloc
 * graudit
