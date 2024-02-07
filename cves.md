@@ -27,6 +27,12 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 |            	|           	|                   	|   	|   	|
 |            	|           	|                   	|   	|   	|
 
+| CVE Number | Description                       | Severity | Affected Software | Date Discovered |
+|------------|-----------------------------------|----------|-------------------|-----------------|
+| CVE-2022-1234 | Buffer Overflow in Application X | High     | Application X v1.0 | 2022-01-15      |
+| CVE-2023-5678 | SQL Injection in Database Y      | Medium   | Database Y v2.5    | 2023-03-22      |
+| CVE-2023-9876 | Cross-Site Scripting in Website Z| Low      | Website Z v3.0      | 2023-07-11      |
+
 ## Media Publications
 
 * [Critical Flaws Discovered in Popular Industrial Remote Access Systems](https://thehackernews.com/2020/10/industrial-remote-access.html)
