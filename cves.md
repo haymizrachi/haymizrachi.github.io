@@ -21,6 +21,14 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 | Footer row                                                                                        |
 |----------------+----------------------+------------------------+----------------------------------|
 
-## Media Publication
+## Media Publications:
 
-Over the years, I've collected numerous CVE's during my security research projects, which some of them are considered as a Zero-Days vulnerabilities.
+* https://www.securityweek.com/inhand-router-flaws-could-expose-many-industrial-companies-remote-attacks
+
+* https://thehackernews.com/2022/11/cisa-warns-of-critical-vulnerabilities.html
+
+* https://industrialcyber.co/news/security-gaps-found-in-mbconnects-industrial-remote-access-offering/
+
+* https://thehackernews.com/2020/10/industrial-remote-access.html
+
+* https://securityaffairs.com/108991/hacking/industrial-remote-access-systems-flaws.html
