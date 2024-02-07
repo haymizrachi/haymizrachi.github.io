@@ -11,10 +11,21 @@ For additional information, refer to my <a href="https://www.linkedin.com/in/hay
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
+| CVE-2020-11641 | 	Local File Inclusion Vulnerability | High (7.7)      | B&R Industrial Automation, SiteManager      | 09/29/2020      |
+| CVE-2020-11642 | 	Denial of Service via Local File Inclusion Vulnerability | High (7.7)      | B&R Industrial Automation, SiteManager      | 09/29/2020      |
+| CVE-2020-11643 | 	Information Disclosure Vulnerability | 6.5 (Medium)      | B&R Industrial Automation, SiteManager, GateManager      | 09/29/2020      |
+| CVE-2020-11644 | 	Audit Message Spoofing Vulnerability | 6.5 (Medium)      | B&R Industrial Automation, SiteManager, GateManager      | 09/29/2020      |
+| CVE-2020-11645 | 	Denial of Service Vulnerability | 6.5 (Medium)      | B&R Industrial Automation, SiteManager, GateManager      | 09/29/2020      |
+| CVE-2020-11646 | 	Log Information Disclosure Vulnerability | 4.3 (Medium)      | B&R Industrial Automation, SiteManager, GateManager      | 09/29/2020      |
+| CVE-2020-24570 | 	Server-Side Request Forgery | High (8.8)      | mbCONNECT24, mymbCONNECT24      | 09/30/2020      |
+| CVE-2020-24569 | 	Blind SQL injection | High (7.1)      | mbCONNECT24, mymbCONNECT24      | 09/30/2020      |
+| CVE-2020-24568 | 	Blind SQL injection | High (7.1)      | mbCONNECT24, mymbCONNECT24      | 09/30/2020      |
+| N/A | 	Unauthenticated Remote Code Execution | Critical (9.8)      | mbCONNECT24, mymbCONNECT24      | 09/30/2020      |
 | CVE-2017-13713 | Execution of Arbitrary Code | High (8.8)    | T&W WIFI Repeater BE126 | 09/07/2017      |
 | CVE-2017-8770 | Local File Inclusion Vulnerability      | High (7.5)   | T&W WIFI Repeater BE126    | 09/20/2017      |
 | CVE-2017-8771 | 	Use of Hard-coded Credentials | Critical (9.8)      | T&W WIFI Repeater BE126      | 09/20/2017      |
 | CVE-2017-8772 | 	Use of Hard-coded Credentials | Critical (9.8)      | T&W WIFI Repeater BE126      | 09/20/2017      |
+| CVE-2013-3633 | 	Authorization Bypass | High (7.6)      | Siemens Scalance X-200      | 12/10/2019      |
 
 ## Media Publications
 
