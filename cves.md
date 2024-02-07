@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CVEs
+title: CVEs:
 permalink: /cves/
 tags: cves
 ---
