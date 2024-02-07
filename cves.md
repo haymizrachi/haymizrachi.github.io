@@ -10,7 +10,7 @@ Over the years, I've collected numerous CVE's during my security research projec
 For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
 
 |----------------+----------------------+------------------------+----------------------------------|
-| Default header | Left header          |     Center header      |                     Right header |
+| CVE Number | Description          |     Severity      |                     Affected Vendor |                     Date of Disclosure
 |----------------|:---------------------|:----------------------:|---------------------------------:|
 | Default        | Left                 |        Center          |                            Right |
 | *Italic*       | **Bold**             |   ***Bold italic***    |                      `monospace` |
