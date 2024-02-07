@@ -11,9 +11,10 @@ For additional information, refer to my <a href="https://www.linkedin.com/in/hay
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
-| CVE-2022-1234 | Buffer Overflow in Application X | High     | Application X v1.0 | 2022-01-15      |
-| CVE-2023-5678 | SQL Injection in Database Y      | Medium   | Database Y v2.5    | 2023-03-22      |
-| CVE-2023-9876 | Cross-Site Scripting in Website Z| Low      | Website Z v3.0      | 2023-07-11      |
+| CVE-2017-13713 | Execution of Arbitrary Code | High (8.8)    | T&W WIFI Repeater BE126 | 09/07/2017      |
+| CVE-2017-8770 | Local File Inclusion Vulnerability      | High (7.5)   | T&W WIFI Repeater BE126    | 09/20/2017      |
+| CVE-2017-8771 | 	Use of Hard-coded Credentials | Critical (9.8)      | T&W WIFI Repeater BE126      | 09/20/2017      |
+| CVE-2017-8772 | 	Use of Hard-coded Credentials | Critical (9.8)      | T&W WIFI Repeater BE126      | 09/20/2017      |
 
 ## Media Publications
 
