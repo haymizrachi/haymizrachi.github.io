@@ -94,7 +94,7 @@ Another tool that can save us time during our research is the `graudit`[^2] ('gr
 An output results of this tool could be a  line focus on a function that depends on user input or an SQL statement executed without passing through a sanitation check before, or __for god's sake__ - existence of command execution functions that controlled by the end user:
 
 <p align="center">
-  <img src="{{ site.url }}/images/rce_born.jpg" alt="how_rce_are_born" />
+  <img src="{{ site.url }}/images/rce_born.png" alt="how_rce_are_born" />
 </p>
 
 ### TruffleHog
