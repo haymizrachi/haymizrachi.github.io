@@ -26,7 +26,7 @@ There are numerous different ways to investigate code, which are:
 * Covering code line by line
 * Focusing on low-hanging fruit functions such as Login, Registration, and Password Reset mechanisms
 * Greping regex keywords for quick-wins
-* Following user input using bottom up and top down approaches
+* Following user input using bottom-up and top-down approaches
 
 Let's break those things up:
 
@@ -44,9 +44,11 @@ One of the fast and quickest ways to achieve success in finding vulnerabilities 
 
 __Note:__ Don't forget to adapt your keyword vocabulary to the programming language you're researching.
 
-<ins>Following user input using bottom up and top down approaches -</ins>
+<ins>Following user input using bottom-up and top-down approaches -</ins>
 <br />
 This strategy is based on the functionality of web applications, which rely on user input and are controlled by it in order to work appropriately. For example, variables like `$_GET`, `$_POST`, `$_COOKIE`, and `$_REQUEST` are commonly used.
+
+The bottom-up and top-down approaches is based on the concepts of `sink` and `source` terms. The former refer to any part of the program that may be influenced by external data, while the latter refer any input or external data that enters a system."
 
 ### The Power of Tools
 
