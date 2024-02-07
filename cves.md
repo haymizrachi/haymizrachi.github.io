@@ -10,7 +10,7 @@ This Jekyll theme was crafted with <3 by [John Otander](https://johno.com/)
 
 Over the years, I've collected numerous CVE's during my security research projects, which some of them are considered as a Zero-Days vulnerabilities.
 
-For more information, refer to my LinkedIn profile.
+For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
 
 |----------------+----------------------+------------------------+----------------------------------|
 | Default header | Left header          |     Center header      |                     Right header |
