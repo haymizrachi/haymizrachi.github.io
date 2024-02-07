@@ -46,7 +46,7 @@ A Security Researcher without his tools is like a baker without his mixer gentle
 
 One of the main thoughts that need to be in your head is - 'How can I save time to make the process more efficient and more focused to achieving better results than the manual process?'
 
-As discussed earlier, the process of covering line by line, code by code is  very time-consuming process that we want to avoid. Therefore, we seek to apply the best fit approach presented above to the specific code project we handle with.
+As discussed earlier, the process of covering line by line, code by code is  very time-consuming process that we want to avoid. Therefore, we seek to apply the best fit approach presented above to the specific code project we are handle with.
 
 Let's explore some awesome tools:
 
