@@ -5,9 +5,6 @@ permalink: /cves/
 tags: cves
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](https://johno.com/)
-([@4lpine](https://twitter.com/4lpine)).
-
 Over the years, I've collected numerous CVE's during my security research projects, which some of them are considered as a Zero-Days vulnerabilities.
 
 For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
