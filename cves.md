@@ -21,6 +21,12 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 | Footer row                                                                                        |
 |----------------+----------------------+------------------------+----------------------------------|
 
+| CVE Number 	| Severity  	| Affected Vendor   	|   	|   	|
+|------------	|-----------	|-------------------	|---	|---	|
+| sadsad     	| sadasdsad 	| asdsadadsasdasdsa 	|   	|   	|
+|            	|           	|                   	|   	|   	|
+|            	|           	|                   	|   	|   	|
+
 ## Media Publications
 
 * [Critical Flaws Discovered in Popular Industrial Remote Access Systems](https://thehackernews.com/2020/10/industrial-remote-access.html)
