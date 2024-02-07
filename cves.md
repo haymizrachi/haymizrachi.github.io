@@ -20,7 +20,8 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 |================+======================+========================+==================================+
 | Footer row                                                                                        |
 |----------------+----------------------+------------------------+----------------------------------|
-
+<br />
+<br />
 ## Media Publications:
 
 * [https://thehackernews.com/2020/10/industrial-remote-access.html](Critical Flaws Discovered in Popular Industrial Remote Access Systems)
