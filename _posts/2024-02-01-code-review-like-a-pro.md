@@ -40,7 +40,7 @@ This approach involves prioritizing web application mechanisms where the severit
 
 <ins>Greping regex keywords for quick-wins -</ins>
 <br />
-One of the fast and quickest ways to achieve success in finding vulnerabilities is by creating a predefined list of keywords and dangerous functions that could potentially lead to weaknesses. Examples include `username`, `password`, `token`, `system`, `shell_exec` `move_uploaded_file`, `file_get_contents`, and other equivalent functions.
+One of the fastest and quickest ways to achieve success in finding vulnerabilities is by looking after a list of keywords and dangerous functions that could potentially lead to weaknesses. Examples include `username`, `password`, `token`, `system`, `shell_exec` `move_uploaded_file`, `file_get_contents`, and other equivalent functions.
 
 __Note:__ Don't forget to adapt your keyword vocabulary to the programming language you're researching.
 
