@@ -38,7 +38,9 @@ In cases where the project we are checking is considered large, this approach wi
 <br />
 This approach involves prioritizing web application mechanisms where the severity of identifying weaknesses and vulnerabilities is higher due to the complexity of requirements, such as validations, checks, and dependencies on other internal functions, thus we will focus on functions such as Login, Register, Forgot Password, Upload Files, and more.
 
-
+<ins>Greping regex keywords for quick-wins -</ins>
+<br />
+One of the fast and quickest ways to achieve success in finding vulnerabilities is by creating a predefined list of keywords and dangerous functions that could potentially lead to weaknesses. Examples include `username`, `password`, `token`, `system`, `shell_exec`, `$_GET`, `$_POST`, `move_uploaded_file`, `file_get_contents`, and other equivalent functions."
 
 ### The Power of Tools
 
