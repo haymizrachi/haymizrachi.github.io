@@ -7,7 +7,7 @@ tags: cves
 
 Over the years, I've collected numerous of CVE's during my security research projects, which some of them are considered as a Zero-Days vulnerabilities.
 
-For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
+For additional information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
