@@ -107,7 +107,7 @@ XXXXXXXXXXXXXXXXXX
 
 ### Conclusion
 
-The ideas and techniques presented in this article are just the tip of the iceberg in becoming a Code Review master. I hope you learn one or two things you didn't knew before.
+The ideas and techniques presented in this article are just the tip of the iceberg in becoming a Code Review master. I hope you learned one or two things you didn't knew before.
 
 For those who want to take this a step further, I highly recommend the OSWE[^3] course by Offensive Security to gain additional practice covering all the necessary knowledge to become a master Security Code Reviewer.
 
