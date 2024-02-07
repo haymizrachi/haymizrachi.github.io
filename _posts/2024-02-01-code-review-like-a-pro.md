@@ -3,7 +3,7 @@ layout:     post
 title:      Code Review Like a Pro
 date: 2024-02-01 19:00
 summary:    Hacking methodology to discover source code vulnerabilities.
-categories: jekyll pixyl
+categories: security
 ---
 
 Hello everyone!
