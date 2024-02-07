@@ -48,7 +48,7 @@ __Note:__ Don't forget to adapt your keyword vocabulary to the programming langu
 <br />
 This strategy is based on the functionality of web applications, which rely on user input and are controlled by it in order to work appropriately. For example, variables like `$_GET`, `$_POST`, `$_COOKIE`, and `$_REQUEST` are commonly used.
 
-The bottom-up and top-down approaches is based on the concepts of `sink` and `source` terms. The former refer to any part of the program that may be influenced by external data, while the latter refer any input or external data that enters a system."
+The bottom-up and top-down approaches is based on the concepts of `sink` and `source` terms. The former refer to any part of the program that may be influenced by external data, while the latter refer any input or external data that enters a system.
 
 ### The Power of Tools
 
