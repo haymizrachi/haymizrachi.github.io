@@ -18,7 +18,7 @@ The skill of finding bugs and weaknesses inside a code that you don't familiar w
   <img src="{{ site.url }}/images/code_review_meme.jpg" alt="shut_up_please" />
 </p>
 
-So, let's begin...
+So let's get started...
 
 ### Approaches to perform Code Review:
 
