@@ -132,7 +132,18 @@ By the way, there is also a cool TruffleHog extension specifically built for the
 
 ### Driftwood
 
-Additional tool from the same open-source creators is `Driftwood`[^5], which can continue the process of TruffleHog's tool output once a private key is found.
+Additional tool from the same open-source creators is `Driftwood`[^5], which continues the process of TruffleHog's tool output once a private key is found.
+
+Many times, we come a across hard-coded private SSH/TLS keys, and we're not always certain about which asset they belong to. Private keys have a small number of use cases that typically used for TLS and SSH protocols.
+
+So, the purpose of this tool is to take a given Private Key, derive its Public Key component, and then perform lookups on a large database set of known exposed public keys in order to determine its belonging asset.
+
+<p align="center">
+  <img src="{{ site.url }}/images/driftwood_output.png" alt="driftwood_output_poc" />
+</p>
+<p align="center">Found 2 matches of TLS certificates to a given Private Key</p>
+
+You can read more about it [here](https://trufflesecurity.com/blog/driftwood-know-if-private-keys-are-sensitive/) to figure out how it really works behind the scenes.
 <br /><br />
 
 ### Wrapping Up
