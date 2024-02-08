@@ -32,8 +32,7 @@ There are numerous different ways to investigate code, which are:
 
 Let's break those things up:
 
-<ins>Covering line by line -</ins>
-<br />
+#### Covering line by line:
 In cases where the project we are checking is considered large, this approach will consume a significant amount of time to cover end to end. Therefore, it is more suitable for projects with a small number of code files to cover.
 
 <ins>Focus on Low-hanging fruit functions -</ins>
@@ -113,7 +112,7 @@ An output results of this tool could be a  line focus on a function that depends
 
 `TruffleHog`[^3] is a powerful open-source tool designed to detect secrets and leaked credentials that might be accidentally or intentionally left behind within Git repositories or raw filesystems. It achieves this by scanning all commit histories to identify high-entropy strings, which may indicate the presence of API keys, passwords, and other types of credentials.
 
-As discussed previously, our goal is to identify the quickest wins and expose the crown jewel assets, and this tool can help us achieve that.
+As discussed previously, our goal is to identify the quickest wins and expose the crown jewel assets, and that tool can help us achieving this.
 
 <p align="center">
   <img src="{{ site.url }}/images/crown_jewel.jpg" alt="crown_jewel_pic" />
