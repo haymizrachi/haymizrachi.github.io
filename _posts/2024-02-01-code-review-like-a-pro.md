@@ -119,6 +119,14 @@ As discussed previously, our goal is to identify the quickest wins and expose th
   <img src="{{ site.url }}/images/crown_jewel.jpg" alt="crown_jewel_pic" />
 </p>
 
+XX
+
+By the way, there is also a cool TruffleHog extension specifically built for the `Google Chrome`[^4] that monitors API keys and credentials on websites we visit. Once the extension found one, it immediately alerts with a popup on the screen.
+
+<p align="center">
+  <img src="{{ site.url }}/images/trufflehog_chrome_ext" alt="trufflehog_chrome_plugin" />
+</p>
+
 ### Driftwood
 
 XXXXXXXXXXXXXXXXXX
@@ -127,7 +135,7 @@ XXXXXXXXXXXXXXXXXX
 
 The ideas and techniques presented in this article are just the tip of the iceberg in becoming a Code Reviewer master. I hope you learned one or two things you didn't knew before.
 
-For those who want to take this a step further, I highly recommend the OSWE[^4] course by Offensive Security to gain additional hands-on practice covering all the necessary knowledge and techniques to achive this goal.
+For those who want to take this a step further, I highly recommend the OSWE[^5] course by Offensive Security to gain additional hands-on practice covering all the necessary knowledge and techniques to achive this goal.
 
 <br />
 Thank you for reading!
@@ -139,5 +147,7 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 [^1]: cloc - [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc).
 [^2]: graudit - [https://github.com/wireghoul/graudit](https://github.com/wireghoul/graudit).
-[^3]: TruffleHog - [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog).
-[^4]: WEB-300 - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
+[^3]: TruffleHog - [https://github.com/trufflesecurity/trufflehog]
+(https://github.com/trufflesecurity/trufflehog).
+[^4]: TruffleHog for Chrome - [https://chromewebstore.google.com/detail/trufflehog/](https://chromewebstore.google.com/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc).
+[^5]: WEB-300 - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
