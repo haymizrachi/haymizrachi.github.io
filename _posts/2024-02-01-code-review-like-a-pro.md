@@ -132,7 +132,7 @@ By the way, there is also a cool TruffleHog extension specifically built for the
 
 XXXXXXXXXXXXXXXXXX
 
-### Conclusion
+### Wrapping Up
 
 The ideas and techniques presented in this article are just the tip of the iceberg in becoming a Code Reviewer master. I hope you learned one or two things you didn't knew before.
 
