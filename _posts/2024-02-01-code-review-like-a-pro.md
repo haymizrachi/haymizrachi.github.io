@@ -2,7 +2,7 @@
 layout:     post
 title:      Code Review Like a Pro
 date: 2024-02-01 19:00
-summary:    Hacking methodology to discover source code vulnerabilities.
+summary:    Discover how to uncover vulnerabilities in source code applications and learn key techniques to identify and mitigate security risks effectively.
 categories: security
 ---
 
