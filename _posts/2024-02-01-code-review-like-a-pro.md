@@ -115,6 +115,10 @@ An output results of this tool could be a  line focus on a function that depends
 
 As discussed previously, our goal is to identify the quickest wins and expose the crown jewel assets, and this tool can help us achieve that.
 
+<p align="center">
+  <img src="{{ site.url }}/images/crown_jewel.jpg" alt="crown_jewel_pic" />
+</p>
+
 ### Driftwood
 
 XXXXXXXXXXXXXXXXXX
