@@ -136,7 +136,7 @@ Additional tool from the same open-source creators is `Driftwood`[^5], which con
 
 Many times, we come a across hard-coded private SSH/TLS keys, and we're not always certain about which asset they belong to. Private keys have a small number of use cases that typically used for TLS and SSH protocols.
 
-So, the purpose of this tool is to take a given Private Key, derive its Public Key component, and then perform lookups on a large database set of known exposed public keys in order to determine its belonging asset.
+So, the purpose of this tool is to take a given Private Key, derive its Public Key component, and then perform lookups on a large database set of known exposed public keys in order to determine its belonging asset:
 
 <p align="center">
   <img src="{{ site.url }}/images/driftwood_output.png" alt="driftwood_output_poc" />
