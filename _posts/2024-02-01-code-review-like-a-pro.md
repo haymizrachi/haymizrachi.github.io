@@ -124,7 +124,7 @@ XX
 By the way, there is also a cool TruffleHog extension specifically built for the `Google Chrome`[^4] that monitors API keys and credentials on websites we visit. Once the extension found one, it immediately alerts with a popup on the screen.
 
 <p align="center">
-  <img src="{{ site.url }}/images/trufflehog_chrome_ext" alt="trufflehog_chrome_plugin" />
+  <img src="{{ site.url }}/images/trufflehog_chrome_ext.png" alt="trufflehog_chrome_plugin" />
 </p>
 
 ### Driftwood
