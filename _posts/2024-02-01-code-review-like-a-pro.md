@@ -147,7 +147,6 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 [^1]: cloc - [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc).
 [^2]: graudit - [https://github.com/wireghoul/graudit](https://github.com/wireghoul/graudit).
-[^3]: TruffleHog - [https://github.com/trufflesecurity/trufflehog]
-(https://github.com/trufflesecurity/trufflehog).
+[^3]: TruffleHog - [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog).
 [^4]: TruffleHog for Chrome - [https://chromewebstore.google.com/detail/trufflehog/](https://chromewebstore.google.com/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc).
 [^5]: WEB-300 - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
