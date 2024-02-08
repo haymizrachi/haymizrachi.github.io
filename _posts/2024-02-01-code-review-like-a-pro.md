@@ -145,7 +145,7 @@ So, the purpose of this tool is to take a given Private Key, derive its Public K
 </p>
 <p align="center">Found 2 matches of TLS certificates to a given Private Key</p>
 
-You can read more about it [here](https://trufflesecurity.com/blog/driftwood-know-if-private-keys-are-sensitive/) to figure out how it really works behind the scenes.
+You can read more about [here](https://trufflesecurity.com/blog/driftwood-know-if-private-keys-are-sensitive/) to figure out how it really works behind the scenes.
 <br /><br />
 
 ### Wrapping Up
