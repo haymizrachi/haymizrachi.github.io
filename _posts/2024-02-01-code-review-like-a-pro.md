@@ -14,7 +14,9 @@ Today, I'm going to share with you my own research methodology for analyzing and
 
 Whitebox assessments refer to a specific security testing scenario where the attacker/tester __has prior access__ to the internal workings of the application, including its architecture, schemas or source code files. This access enables them to identify vulnerabilities more quickly and efficiently compared to the blackbox approach, which is what this article will be talking about.
 
-The skill of finding bugs and weaknesses inside a code that you don't familiar with and getting into the developer mind's required to be experienced with code reading - __and a lot of it__, but I can promise to you, it's will <ins>get much easier over time</ins> as long as you practice and deal with code on your daily basis. 
+The following article will focus on source code files that we are able to obtain or find using some Recon techniques (which we will be explore in a future blog posts).
+
+The skill of finding bugs and weaknesses inside a code that you don't familiar with and getting into the developer mind's required to be experienced with code reading - __and a lot of it__, but I can promise to you, it will <ins>get much easier over time</ins> as long as you practice and deal with code on your daily basis. 
 
 <p align="center">
   <img src="{{ site.url }}/images/code_review_meme.jpg" alt="shut_up_please" />
@@ -130,14 +132,14 @@ By the way, there is also a cool TruffleHog extension specifically built for the
 
 ### Driftwood
 
-XXXXXXXXXXXXXXXXXX
+Additional tool from the same open-source creators is `Driftwood`[^5], which can continue the process of TruffleHog's tool output once a private key is found.
 <br /><br />
 
 ### Wrapping Up
 
 The ideas and techniques presented in this article are just the tip of the iceberg in becoming a Code Reviewer master. I hope you learned one or two things you didn't knew before.
 
-For those who want to take this a step further, I highly recommend the OSWE[^5] course by Offensive Security to gain additional hands-on practice covering all the necessary knowledge and techniques to achive this goal.
+For those who want to take this a step further, I highly recommend the OSWE[^6] course by Offensive Security to gain additional hands-on practice covering all the necessary knowledge and techniques to achive this goal.
 
 <br />
 Thank you for reading!
@@ -151,4 +153,5 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 [^2]: graudit - [https://github.com/wireghoul/graudit](https://github.com/wireghoul/graudit).
 [^3]: TruffleHog - [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog).
 [^4]: TruffleHog for Chrome - [https://chromewebstore.google.com/detail/trufflehog/](https://chromewebstore.google.com/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc).
-[^5]: WEB-300 - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
+[^5]: Driftwood - [https://github.com/trufflesecurity/driftwood](https://github.com/trufflesecurity/driftwood).
+[^6]: WEB-300 - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
