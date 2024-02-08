@@ -8,7 +8,7 @@ categories: security
 
 Hello everyone!
 <br />
-Welcome to my first blog post! I'm excited to be here :blush:
+Welcome to my first blog post! I'm excited to be here :smile:
 
 Today, I'm going to share with you my own research methodology for analyzing and reviewing source code applications to identifying vulnerabilities on Whitebox engagements. 
 
@@ -111,7 +111,7 @@ An output results of this tool could be a  line focus on a function that depends
 
 `TruffleHog`[^3] is a powerful open-source tool designed to detect secrets and leaked credentials that might be accidentally or intentionally left behind within Git repositories or raw filesystems. It achieves this by scanning all commit histories to identify high-entropy strings, which may indicate the presence of API keys, passwords, and other types of credentials.
 
-As discussed previously, our goal is to identify the quickest wins and expose the crown jewel assets, and that tool can help us achieving this.
+As discussed previously, our goal is to identify the quickest wins and expose the crown jewel assets, and this tool comes to help us achieving this.
 
 <p align="center">
   <img src="{{ site.url }}/images/crown_jewel.jpg" alt="crown_jewel_pic" />
