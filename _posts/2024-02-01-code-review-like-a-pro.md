@@ -8,10 +8,12 @@ categories: security
 
 Hello everyone!
 <br />
-Welcome to my first blog post! I'm excited to be here :smiley:
+Welcome to my first blog post! I'm excited to be here :blush:
 
-Today, I'm going to share with you my research methodology for analyzing and reviewing source code applications to identifying vulnerabilities on Whitebox engagements. 
-<br /><br />
+Today, I'm going to share with you my own research methodology for analyzing and reviewing source code applications to identifying vulnerabilities on Whitebox engagements. 
+
+Whitebox assessments refer to a specific security testing scenario where the attacker/tester has prior access to the internal workings of the application, including its architecture, schemas or source code files. This access enables them to identify vulnerabilities more quickly and efficiently compared to the blackbox approach, which is what this article will be talking about.
+
 The skill of finding bugs and weaknesses inside a code that you don't familiar with and getting into the developer mind's required to be experienced with code reading - __and a lot of it__, but I can promise to you, it's will <ins>get much easier over time</ins> as long as you practice and deal with code on your daily basis. 
 
 <p align="center">
