@@ -119,14 +119,18 @@ As discussed previously, our goal is to identify the quickest wins and expose th
   <img src="{{ site.url }}/images/crown_jewel.jpg" alt="crown_jewel_pic" />
 </p>
 
-XX
+In the picture below, while running the tool against a GitHub repo, we can see the tool is able to find an exposed SSH private key, an API key of the PagerDuty asset, and even a MongoDB database connection string:
+
+<p align="center">
+  <img src="{{ site.url }}/images/trufflehog_secrets.png" alt="trufflehog_secrets_output" />
+</p>
 
 By the way, there is also a cool TruffleHog extension specifically built for the `Google Chrome`[^4] that monitors API keys and credentials on websites we visit. Once the extension found one, it immediately alerts with a popup on the screen:
 
 <p align="center">
   <img src="{{ site.url }}/images/trufflehog_chrome_ext.png" alt="trufflehog_chrome_plugin" />
 </p>
-<p align="center">Secrets exposed without requiring any effort</p>
+<p align="center">Secrets revealed without the need to dig into the source code</p>
 
 ### Driftwood
 
