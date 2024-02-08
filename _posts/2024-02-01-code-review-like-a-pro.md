@@ -121,11 +121,12 @@ As discussed previously, our goal is to identify the quickest wins and expose th
 
 XX
 
-By the way, there is also a cool TruffleHog extension specifically built for the `Google Chrome`[^4] that monitors API keys and credentials on websites we visit. Once the extension found one, it immediately alerts with a popup on the screen.
+By the way, there is also a cool TruffleHog extension specifically built for the `Google Chrome`[^4] that monitors API keys and credentials on websites we visit. Once the extension found one, it immediately alerts with a popup on the screen:
 
 <p align="center">
   <img src="{{ site.url }}/images/trufflehog_chrome_ext.png" alt="trufflehog_chrome_plugin" />
 </p>
+<p align="center">Secrets exposed without requiring any effort</p>
 
 ### Driftwood
 
