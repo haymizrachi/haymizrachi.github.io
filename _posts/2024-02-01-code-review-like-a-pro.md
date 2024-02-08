@@ -111,7 +111,9 @@ An output results of this tool could be a  line focus on a function that depends
 
 ### TruffleHog
 
-XXXXXXXXXXXXXXXXXX
+`TruffleHog`[^3] is a powerful open-source tool designed to detect secrets and leaked credentials that might be accidentally or intentionally left behind within Git repositories or raw filesystems. It achieves this by scanning all commit histories to identify high-entropy strings, which may indicate the presence of API keys, passwords, and other types of credentials.
+
+As discussed previously, our goal is to identify the quickest wins and expose the crown jewel assets, and this tool can help us achieve that.
 
 ### Driftwood
 
@@ -121,7 +123,7 @@ XXXXXXXXXXXXXXXXXX
 
 The ideas and techniques presented in this article are just the tip of the iceberg in becoming a Code Reviewer master. I hope you learned one or two things you didn't knew before.
 
-For those who want to take this a step further, I highly recommend the OSWE[^3] course by Offensive Security to gain additional hands-on practice covering all the necessary knowledge and techniques to achive this goal.
+For those who want to take this a step further, I highly recommend the OSWE[^4] course by Offensive Security to gain additional hands-on practice covering all the necessary knowledge and techniques to achive this goal.
 
 <br />
 Thank you for reading!
@@ -133,4 +135,5 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 [^1]: cloc - [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc).
 [^2]: graudit - [https://github.com/wireghoul/graudit](https://github.com/wireghoul/graudit).
-[^3]: WEB-300 - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
+[^3]: TruffleHog - [https://github.com/trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog).
+[^4]: WEB-300 - [https://www.offsec.com/courses/web-300/](https://www.offsec.com/courses/web-300/).
