@@ -35,18 +35,15 @@ Let's break those things up:
 #### Covering line by line:
 In cases where the project we are checking is considered large, this approach will consume a significant amount of time to cover end to end. Therefore, it is more suitable for projects with a small number of code files to cover.
 
-<ins>Focus on Low-hanging fruit functions -</ins>
-<br />
+#### Focus on Low-hanging fruit functions:
 This approach involves prioritizing web application mechanisms where the severity of identifying weaknesses and vulnerabilities is higher due to the complexity of requirements, such as validations, checks, and dependencies on other internal functions, thus we will focus on functions such as Login, Register, Forgot Password, Upload Files, and more.
 
-<ins>Greping regex keywords for quick-wins -</ins>
-<br />
+#### Greping regex keywords for quick-wins:
 One of the fastest and quickest ways to achieve success in finding vulnerabilities is by looking after a list of keywords and dangerous functions that could potentially lead to weaknesses. Examples include `username`, `password`, `token`, `system`, `shell_exec` `move_uploaded_file`, `file_get_contents`, and other equivalent functions.
 
 __Note:__ Don't forget to adapt your keyword vocabulary to the programming language you're researching.
 
-<ins>Following user input using bottom-up and top-down approaches -</ins>
-<br />
+#### Following user input using bottom-up and top-down approaches:
 This strategy is based on the functionality of web applications, which rely on user input and are controlled by it in order to work appropriately. For example, variables like `$_GET`, `$_POST`, `$_COOKIE`, and `$_REQUEST` are commonly used.
 
 The bottom-up and top-down approaches is based on the concepts of `sink` and `source` terms. The former refer to any part of the program that may be influenced by external data, while the latter refer any input or external data that enters a system.
