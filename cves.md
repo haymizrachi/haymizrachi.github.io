@@ -5,9 +5,9 @@ permalink: /cves/
 tags: cves
 ---
 
-Over the years, I've collected numerous of CVE's during my security research projects, which some of them are considered as a Zero-Days vulnerabilities.
+Over the years, I've discovered numerous CVE's through my security research projects, which some of them are considered as Zero-Day vulnerabilities.
 
-For additional information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
+For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
