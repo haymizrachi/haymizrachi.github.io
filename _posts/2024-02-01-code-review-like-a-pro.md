@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Code Review Like a Pro
-date: 2024-02-08 12:00
+date: 2024-02-19 12:00
 summary:    Discover how to uncover vulnerabilities in source code applications and learn key techniques to identify and mitigate security risks effectively.
 categories: security
 ---
