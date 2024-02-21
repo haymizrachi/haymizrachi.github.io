@@ -11,7 +11,7 @@ Hello everyone!
 Welcome to my first blog post! I'm excited to be here :smile:
 
 <br />
-Today, I'm going to share with you my own research methodology for analyzing and reviewing source code applications to identifying vulnerabilities on Whitebox engagements. 
+Today, I'm going to share with you my own research methodology for analyzing and reviewing source code applications to identify vulnerabilities on Whitebox engagements. 
 
 Whitebox assessments refer to a specific security testing scenario where the attacker/tester __has prior access__ to the internal workings of the application, including its architecture, schemas or source code files. This access enables them to identify vulnerabilities more quickly and efficiently compared to the blackbox approach, which is what this article will be talking about.
 
