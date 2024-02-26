@@ -11,7 +11,6 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
-|
 [CVE-2023-3453](https://www.cisa.gov/news-events/ics-advisories/icsa-23-208-01)  | 	INSECURE DEFAULT INITIALIZATION OF RESOURCE CWE-1188 | High (7.1)      | ETIC Telecom Remote Access Server (RAS)      | 7/27/2023      |
 | [CVE-2022-3703](https://www.cisa.gov/news-events/ics-advisories/icsa-22-307-01)  | 	INSUFFICIENT VERIFICATION OF DATA AUTHENTICITY | High (7.6)      | ETIC Telecom Remote Access Server (RAS)      | 7/27/2023      |
 |
