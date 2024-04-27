@@ -10,6 +10,12 @@ categories: security
 <br />
 `Data EPP - Writing API exploits in Python`[^2]
 
+So, what Postman Workflows is all about?
+
+<p align="center">
+  <img src="{{ site.url }}/images/postman_flows_demonstration.gif" alt="postman_flows_demonstration" />
+</p>
+
 ### Summarizing Up
 
 XXXXXX
@@ -22,5 +28,6 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 ---
 
-[^1]: Postman Flows by Postman - [https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5](https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5).
-[^2]: Writing API exploits in Python by DANA EPP - [https://danaepp.com/writing-api-exploits-in-python](https://danaepp.com/writing-api-exploits-in-python).
+[^1]: [https://learning.postman.com/docs/postman-flows/gs/flows-overview/](Postman Workflow Documentation).
+[^2]: [https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5](Postman Flows Playlist by Postman).
+[^3]: [https://danaepp.com/writing-api-exploits-in-python](Writing API exploits in Python by DANA Epp).
