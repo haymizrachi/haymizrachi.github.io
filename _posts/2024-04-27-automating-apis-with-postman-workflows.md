@@ -21,7 +21,7 @@ When we discuss on providing API PoC vulnerabilities for Bug Hunting programs or
 In the following article, I'll introduce a new alternative approach that can also be effective in certain cases which focusing on the GUI approach, and doesn't even require any programming skills !
 
 __Note:__ For demostartion purposes, all the presented examples will be showed on the `OWASP crAPI`[^1] project that serves as a vulnerable API's platform for new beginners who want to start their hacking learning process.
-
+<br /><br />
 
 ### What is Postman Platform?
 
