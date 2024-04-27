@@ -22,9 +22,10 @@ In the following article, I'll introduce a new alternative approach that can als
 
 __Note:__ For demostartion purposes, all the presented examples will be showed on the `OWASP crAPI`[^1] project that serves as a vulnerable API's platform for new beginners who want to start their hacking learning process.
 
+<br />
 ### What is Postman Platform?
 
-Postman is an API tool development platform that simplify the process of building, testing, and managing API's under a group of HTTP requests that called 'Collections'. 
+Postman is an API tool development platform that simplify the process of building, testing, and managing API's under a group of HTTP requests that called `Collections`. 
 
 This tool offers a wide range of built-in capabilities for interacting with API requests, for example: 
 * Load `OpenAPI` specifications as API documentation
