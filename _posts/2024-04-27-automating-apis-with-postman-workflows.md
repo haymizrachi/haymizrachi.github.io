@@ -65,7 +65,15 @@ The response of the request will provide us with the vehicle location using the 
 <p align="center">
   <img src="{{ site.url }}/images/my_vehicle_response.png" alt="my_vehicle_response" />
 </p>
-<p align="center">Return response of the request</p>
+<p align="center">Return latitude and longitude vehicle data</p>
+
+By using the community page of the crAPI platform, we can obtain all victims data, including their vehicleId, which represents their car's UUID parameter to be provided in the above request. With this information, we can iterate over each vehicleId and send a request to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint to receive their vehicle's location and achieve our malicious goal.
+
+So, let's summarize this into one flow:
+1. Retrieve all victims personal information from the `/community/api/v2/community/posts/recent` endpoint.
+2. Iterate through each result in the list and extract the vehicleId associated with each victim.
+3. For each vehicleId, use it as a UUID parameter and send an HTTP GET request to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint.
+4. Print out the results.
 
 ### Summarizing Up
 
