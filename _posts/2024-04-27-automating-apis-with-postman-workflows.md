@@ -22,7 +22,7 @@ In the following article, I'll introduce a new alternative approach that can als
 
 __Note:__ For demostartion purposes, all the presented examples will be showed on the `OWASP crAPI`[^1] project that serves as a vulnerable API's platform for new beginners who want to start their hacking learning process.
 
-<br />
+
 ### What is Postman Platform?
 
 Postman is an API tool development platform that simplify the process of building, testing, and managing API's under a group of HTTP requests that called `Collections`. 
@@ -46,9 +46,7 @@ So,
     <a href="https://learning.postman.com/docs/postman-flows/gs/flows-overview/">Demonstration by Animation</a>
 </p>
 
-Postman Workflows is based on a sequential of HTTP requests that needs to occur in a certian flow in order to achive his goal, for example combining a series of depends requests to achive a BOLA vulnerability, or iterate over a list of API requests that implemented a pagination feature to be able to pull out all of his data, you got the idea.
-
-Postman Workflows is based on a <ins>sequence of HTTP requests</ins> that need to occur in a certain flow to achieve its goal. For example, combining a series of dependent requests to achieve a BOLA (Broken Object-Level Authorization) vulnerability, iterating over a list of API requests that implement a pagination feature to pull out all of it data, you got the idea :smiley:
+Postman Workflows is based on a <ins>sequence of HTTP requests</ins> that need to occur in a certain flow to achieve its goal. For example, combining a series of dependent requests (passing some parameters between them) to achieve a BOLA (Broken Object-Level Authorization) vulnerability, iterating over a list of API requests that implement a pagination feature to pull out all of it data, you got the idea :smiley:
 
 ### Summarizing Up
 
