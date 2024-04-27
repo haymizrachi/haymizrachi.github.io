@@ -47,6 +47,7 @@ So,
 </p>
 
 Postman Workflows is based on a <ins>sequence of HTTP requests</ins> that need to occur in a certain flow to achieve its goal. For example, combining a series of dependent requests (passing some parameters between them) to achieve a BOLA (Broken Object-Level Authorization) vulnerability, iterating over a list of API requests that implement a pagination feature to pull out all of it data, you got the idea :smiley:
+<br /><br />
 
 ### BOLA Demonstration using Workflow
 
@@ -57,6 +58,14 @@ After signing up on the crAPI platform and adding my own vehicle under my profil
 <p align="center">
   <img src="{{ site.url }}/images/my_vehicle_request.png" alt="my_vehicle_request" />
 </p>
+<p align="center">Getting my vehicle location by passing vehicle's UUID paramter</p>
+
+The response of the request will provide us with the vehicle location using the carId as a UUID parameter. If we can change the carId to a different UUID belonging to another user and receive their vehicle location, we have found a BOLA vulnerability. All we need to do is find a way to obtain the UUIDs of other victims and exploit them in this request:
+
+<p align="center">
+  <img src="{{ site.url }}/images/my_vehicle_response.png" alt="my_vehicle_response" />
+</p>
+<p align="center">Return response of the request</p>
 
 ### Summarizing Up
 
