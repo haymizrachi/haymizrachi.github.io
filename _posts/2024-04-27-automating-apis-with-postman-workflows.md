@@ -67,7 +67,12 @@ The response of the request will provide us with the vehicle location using the 
 </p>
 <p align="center">Return latitude and longitude vehicle data</p>
 
-By using the community page of the crAPI platform, we can obtain all victims data, including their vehicleId, which represents their car's UUID parameter to be provided in the above request. With this information, we can iterate over each vehicleId and send a request to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint to receive their vehicle's location and achieve our malicious goal.
+By using the community page of the crAPI platform, we can obtain all victims data, including their vehicleId, which represents their car's UUID parameter to be provided in the above request. With this information, we can iterate over each vehicleId and send a request to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint to receive their vehicle's location and achieve our malicious goal:
+
+<p align="center">
+  <img src="{{ site.url }}/images/community_vehicle_id_exposure.png" alt="community_vehicle_id_exposure" />
+</p>
+<p align="center">Community page exposed all victims personal information</p>
 
 <br />
 So, let's summarize this into one flow:
@@ -82,7 +87,6 @@ XXXXXX
 
 I'm putting you a link of `Youtube Playlist`[^4] with additional workflows examples that you can learn and using for your demonstrations for fun and profit.
 
-<br />
 Thanks for reading!
 
 <br />
