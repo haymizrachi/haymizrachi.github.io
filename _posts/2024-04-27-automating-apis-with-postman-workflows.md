@@ -119,7 +119,7 @@ Now, let's break down each part of the graph:
 
 In the end, Postman Workflows can enhance your automation and presentation skills by allowing you to easily build drag-and-drop flows with just a click of a button.
 
-For more coverage on this topic, I'm providing you a link to a `Youtube Playlist`[^4] of a short series presenting additional workflow features. You can learn from and use these for your demonstrations, both for fun and profit."
+For more coverage on this topic, I'm providing you a link to a `Youtube Playlist`[^4] of a short series presenting additional workflow features. You can learn from and use these for your demonstrations, both for fun and profit.
 
 Thanks for reading!
 
