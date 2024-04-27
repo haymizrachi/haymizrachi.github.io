@@ -22,6 +22,18 @@ In the following article, I'll introduce a new alternative approach that can als
 
 __Note:__ For demostartion purposes, all the presented examples will be showed on the `OWASP crAPI`[^1] project that serves as a vulnerable API's platform for new beginners to starting on.
 
+### What is Postman Platform?
+
+Postman is an API tool development platform that simplify the process of building, testing, and managing API's under a group of HTTP requests that called 'Collections'. 
+
+This tool offers a wide range of built-in capabilities for interacting with API requests, for example: 
+* Load `OpenAPI` specifications as API documentation
+* Execute a sequence of HTTP requests using the `Collection Runner` feature
+* Interact with `GraphQL` API instances
+* Visualizing outcomes using the `Postman Visualizer` tool
+
+And the crown jewels: the Postman Workflows feature.
+
 So,
 
 ### What Postman Workflows is all about?
@@ -29,7 +41,9 @@ So,
 <p align="center">
   <img src="{{ site.url }}/images/postman_flows_demonstration.gif" alt="postman_flows_demonstration" />
 </p>
-<p align="center">`Demonstration by Animation`[^3]</p>
+<p align="center">
+    <a href="https://learning.postman.com/docs/postman-flows/gs/flows-overview/">Demonstration by Animation</a>
+</p>
 
 ### Summarizing Up
 
