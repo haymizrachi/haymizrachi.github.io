@@ -89,12 +89,21 @@ Workflows come into play to help us automate this entire process. The final work
 </p>
 <p align="center">BOLA Flow (<a href="https://haymiz.dev//images/crapi_vehicle_postman_workflow.png">Click here for higher picture resolution</a>)</p>
 
-Now, let's divide each part of the graph:
+Now, let's break down each part of the graph:
 
 <p align="center">
   <img src="{{ site.url }}/images/workflow_explain_1.png" alt="workflow_explain_1" />
 </p>
 <p align="center">First part of the Workflow</p>
+
+1. The workflow starts running from the `Start` orange label, serving as the entry point of the flow.
+2. Immediately after that, the first HTTP request is executed to the `/community/api/v2/community/posts/recent endpoint`. (This endpoint was saved as an HTTP request in my Postman `Collection` section)
+3. This block is then divided into two separate parts:
+  * Handling the request when it's considered a `Success` (i.e., when a 200 HTTP Status Code is returned).
+  * Handling the request when it's considered a `Fail` (i.e., when a 400/500 HTTP Status Code is returned).
+4. In this case, we only want to handle the `Success` part. Therefore, at this step, we extract the `HTTP Body` of the response, which contains the victims' data.
+5. Next, we iterate over each victim's data returned. To accomplish this, we use the `For` block loop, which functions similarly to the `for` loop in `Python`.
+6. From each of the returned victim JSON lists, our focus is on extracting the `vehicleId`, which will be sent to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint.
 
 ### Summarizing Up
 
