@@ -51,9 +51,9 @@ Postman Workflows is based on a <ins>sequence of HTTP requests</ins> that need t
 
 ### BOLA Demonstration using Workflow
 
-For our first workflow creation, let's demonstrate it using the first crAPI challenge: accessing details of another user's vehicle location as a <a href="https://github.com/OWASP/crAPI/blob/develop/docs/challenges.md">BOLA vulnerability</a>.
+For our workflow creation, let's demonstrate it using the first crAPI challenge: accessing details of another user's vehicle location as a <a href="https://github.com/OWASP/crAPI/blob/develop/docs/challenges.md">BOLA vulnerability</a>.
 
-After signing up on the crAPI platform and adding my own vehicle under my profile, there is a blue button called 'Refresh Location.' Clicking this button will trigger a background API GET request including my vehicle's unique UUID as a parameter, providing us with the vehicle's real-time location:
+After signing up on the crAPI platform and adding my own vehicle under my profile, there is a blue button called `Refresh Location` Clicking this button will trigger a background API GET request including my vehicle's unique UUID as a parameter, providing us with the vehicle's real-time location:
 
 <p align="center">
   <img src="{{ site.url }}/images/my_vehicle_request.png" alt="my_vehicle_request" />
