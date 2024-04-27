@@ -114,6 +114,7 @@ Now, let's break down each part of the graph:
 2. Once again, we extract the data directly from the `HTTP Body` section of the returned response.
 3. To merge all of the returned victims' data from the BOLA request into one comprehensive output, we utilize the `Collect` section.
 4. Finally, we display the victims' real-time vehicle locations using the `Output` workflow block.
+<br /><br />
 
 ### Summarizing Up
 
