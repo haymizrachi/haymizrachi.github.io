@@ -14,15 +14,13 @@ Today, I'm excited to introduce you a new cool feature by Postman platform that 
   <img src="{{ site.url }}/images/omg_yes_please.jpg" alt="omg_yes_please" />
 </p>
 
-When we discuss on providing API PoC vulnerabilities for Bug Hunting programs or customer reports, the classic method involves providing a short Python script to demonstrate the full impact. However, in the following article, I'll introduce a new alternative approach that can also be effective in certain cases, focusing on the GUI approach.
+When we discuss on providing API PoC vulnerabilities for Bug Hunting programs or customer reports, the classic method involves providing a short Python script to demonstrate the full impact (Dana Epp's done a good job on `this`[^2] - Thank you man!). However, in the following article, I'll introduce a new alternative approach that can also be effective in certain cases, focusing on the GUI approach.
 
 __Note:__ For demostartion purposes, all the presented examples will be showed on the `OWASP crAPI`[^1] project that serves as a vulnerable API's platform for new beginners to start on.
 
-`offical Postman Workflow Youtube tutorial`[^1]
-<br />
-`Data EPP - Writing API exploits in Python`[^2]
-<br />
 `Data EPP - Writing API exploits in Python`[^3]
+<br />
+`Data EPP - Writing API exploits in Python`[^4]
 
 ### So, what Postman Workflows is all about?
 
@@ -44,6 +42,6 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 ---
 
 [^1]: [OWASP crAPI](https://github.com/OWASP/crAPI)
-[^2]: [Postman Workflow Documentation](https://learning.postman.com/docs/postman-flows/gs/flows-overview/)
-[^3]: ['Postman Flows' Playlist by Postman](https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5)
-[^4]: [Writing API exploits in Python by DANA Epp](https://danaepp.com/writing-api-exploits-in-python)
+[^2]: [Writing API exploits in Python by DANA Epp](https://danaepp.com/writing-api-exploits-in-python)
+[^3]: [Postman Workflow Documentation](https://learning.postman.com/docs/postman-flows/gs/flows-overview/)
+[^4]: ['Postman Flows' Playlist by Postman](https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5)
