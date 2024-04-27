@@ -91,6 +91,11 @@ Workflows come into play to help us automate this entire process. The final work
 
 Now, let's divide each part of the graph:
 
+<p align="center">
+  <img src="{{ site.url }}/images/workflow_explain_1.png" alt="workflow_explain_1" />
+</p>
+<p align="center">First part of the Workflow</p>
+
 ### Summarizing Up
 
 In the end, Postman Workflows can enhance your automation and presentation skills by allowing you to easily build drag-and-drop flows with just a click of a button.
@@ -106,5 +111,4 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 [^1]: [OWASP crAPI](https://github.com/OWASP/crAPI)
 [^2]: [Writing API exploits in Python by DANA Epp](https://danaepp.com/writing-api-exploits-in-python)
-[^3]: [Postman Workflow Documentation](https://learning.postman.com/docs/postman-flows/gs/flows-overview/)
 [^4]: [Postman Flows Playlist by Postman](https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5)
