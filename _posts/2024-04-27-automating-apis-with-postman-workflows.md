@@ -6,6 +6,10 @@ summary:    Explore the art of automating and visually demonstrating API vulnera
 categories: security
 ---
 
+Hey there, Hay is here.
+<br />
+Today, I'm excited to introduce you a new cool feature by Postman platform that I've recently discovered which has the potential to save you time and enhance your efforts on demonstrating API vulnerabilities.
+
 `offical Postman Workflow Youtube tutorial`[^1]
 <br />
 `Data EPP - Writing API exploits in Python`[^2]
