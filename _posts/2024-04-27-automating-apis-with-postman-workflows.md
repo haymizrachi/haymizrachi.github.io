@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Automating API Vulnerabilities Using Postman Workflows
+title:      Automating API Vulnerability Testing Using Postman Workflows
 date: 2024-04-27 12:00
 summary:    Explore the art of automating and visually demonstrating API vulnerabilities you've identified using Postman Workflows.
 categories: security
