@@ -97,13 +97,23 @@ Now, let's break down each part of the graph:
 <p align="center">First part of the Workflow</p>
 
 1. The workflow starts running from the `Start` orange label, serving as the entry point of the flow.
-2. Immediately after that, the first HTTP request is executed to the `/community/api/v2/community/posts/recent endpoint`. (This endpoint was saved as an HTTP request in my Postman `Collection` section)
+2. Immediately after that, the first HTTP request is executed to the `/community/api/v2/community/posts/recent` endpoint. (This endpoint was previously saved as an HTTP request in my Postman `Collection` section)
 3. This block is then divided into two separate parts:
   * Handling the request when it's considered a `Success` (i.e., when a 200 HTTP Status Code is returned).
   * Handling the request when it's considered a `Fail` (i.e., when a 400/500 HTTP Status Code is returned).
 4. In this case, we only want to handle the `Success` part. Therefore, at this step, we extract the `HTTP Body` of the response, which contains the victims' data.
 5. Next, we iterate over each victim's data returned. To accomplish this, we use the `For` block loop, which functions similarly to the `for` loop in `Python`.
 6. From each of the returned victim JSON lists, our focus is on extracting the `vehicleId`, which will be sent to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint.
+
+<p align="center">
+  <img src="{{ site.url }}/images/workflow_explain_2.png" alt="workflow_explain_2" />
+</p>
+<p align="center">Second part of the Workflow</p>
+
+1. The flow continues by passing the vehicleId from the previous response as a Postman pre-defined `VEHICLE_ID` variable and adding additional `Send Request` block to trigger the BOLA API request with this parameter.
+2. Once again, we extract the data directly from the `HTTP Body` section of the returned response.
+3. To merge all of the returned victims' data from the BOLA request into one comprehensive output, we utilize the `Collect` section.
+4. Finally, we display the victims' real-time vehicle locations using the `Output` workflow block.
 
 ### Summarizing Up
 
