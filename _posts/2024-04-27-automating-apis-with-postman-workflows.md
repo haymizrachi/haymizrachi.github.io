@@ -81,9 +81,18 @@ So, let's summarize this into one flow:
 3. For each vehicleId, use it as a UUID parameter and send an HTTP GET request to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint.
 4. Print out the results.
 
+Workflows come into play to help us automate the entire process. The final workflow will look like this:
+
+<p align="center">
+  <img src="{{ site.url }}/images/crapi_vehicle_postman_workflow.png" alt="crapi_vehicle_postman_workflow" />
+</p>
+<p align="center">BOLA Flow (<a href="https://haymiz.dev//images/crapi_vehicle_postman_workflow.png">Click here for a better picture</a>)</p>
+
+Now, let's divide each part of the graph:
+
 ### Summarizing Up
 
-XXXXXX
+In the end, Postman Workflows can coming to improve your automation and presenting skills with a simple building of drag-and-drop flow in a click of a button.
 
 I'm putting you a link of `Youtube Playlist`[^4] with additional workflows examples that you can learn and using for your demonstrations for fun and profit.
 
