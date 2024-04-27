@@ -10,6 +10,12 @@ Hey there, Hay is here.
 <br /><br />
 Today, I'm excited to introduce you a new cool feature by Postman platform that I've recently discovered which has the potential to save you time and enhance your efforts on demonstrating API vulnerabilities.
 
+<p align="center">
+  <img src="{{ site.url }}/images/omg_yes_please.jpg" alt="omg_yes_please" />
+</p>
+
+For demostartion purposes, all the presented examples will be showed on the [OWASP crAPI](https://github.com/OWASP/crAPI) project that serves as a vulnerable API's platform for new beginners on this field.
+
 `offical Postman Workflow Youtube tutorial`[^1]
 <br />
 `Data EPP - Writing API exploits in Python`[^2]
@@ -35,6 +41,6 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 ---
 
-[^1]: [Postman Workflow Documentation](https://learning.postman.com/docs/postman-flows/gs/flows-overview/).
-[^2]: [Postman Flows Playlist by Postman](https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5).
-[^3]: [Writing API exploits in Python by DANA Epp](https://danaepp.com/writing-api-exploits-in-python).
+[^1]: [Postman Workflow Documentation](https://learning.postman.com/docs/postman-flows/gs/flows-overview/)
+[^2]: ['Postman Flows' Playlist by Postman](https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5)
+[^3]: [Writing API exploits in Python by DANA Epp](https://danaepp.com/writing-api-exploits-in-python)
