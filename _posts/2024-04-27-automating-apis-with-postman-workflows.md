@@ -6,7 +6,8 @@ summary:    Explore the art of automating and visually demonstrating API vulnera
 categories: security
 ---
 
-Hey there, Hay is here.
+Hello there, Hay is here.
+<br />
 It's been quite a while since I wrote my last post, so let's begin!
 <br /><br />
 Today, I'm excited to introduce you a new cool feature by Postman platform that I've recently discovered which has the potential to save you time and enhance your efforts on demonstrating API vulnerabilities.
@@ -17,20 +18,18 @@ Today, I'm excited to introduce you a new cool feature by Postman platform that 
 
 When we discuss on providing API PoC vulnerabilities for Bug Hunting programs or customer reports, the classic method involves providing a short Python script to demonstrate the full impact (Dana Epp's done a good job on `this`[^2] - Thank you man!).
 
-In the following article, I'll introduce a new alternative approach that can also be effective in certain cases, focusing on the GUI approach, and doesn't even require any programming skills !
+In the following article, I'll introduce a new alternative approach that can also be effective in certain cases which focusing on the GUI approach, and doesn't even require any programming skills !
 
-__Note:__ For demostartion purposes, all the presented examples will be showed on the `OWASP crAPI`[^1] project that serves as a vulnerable API's platform for new beginners to start on.
+__Note:__ For demostartion purposes, all the presented examples will be showed on the `OWASP crAPI`[^1] project that serves as a vulnerable API's platform for new beginners to starting on.
 
-`Data EPP - Writing API exploits in Python`[^3]
-<br />
-`Data EPP - Writing API exploits in Python`[^4]
+So,
 
-### So, what Postman Workflows is all about?
+### What Postman Workflows is all about?
 
 <p align="center">
   <img src="{{ site.url }}/images/postman_flows_demonstration.gif" alt="postman_flows_demonstration" />
 </p>
-<p align="center">Demonstration by Animation (Taken from learning.postman.com)</p>
+<p align="center">`Demonstration by Animation`[^3]</p>
 
 ### Summarizing Up
 
