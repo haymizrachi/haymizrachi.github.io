@@ -69,6 +69,7 @@ The response of the request will provide us with the vehicle location using the 
 
 By using the community page of the crAPI platform, we can obtain all victims data, including their vehicleId, which represents their car's UUID parameter to be provided in the above request. With this information, we can iterate over each vehicleId and send a request to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint to receive their vehicle's location and achieve our malicious goal.
 
+<br />
 So, let's summarize this into one flow:
 1. Retrieve all victims personal information from the `/community/api/v2/community/posts/recent` endpoint.
 2. Iterate through each result in the list and extract the vehicleId associated with each victim.
