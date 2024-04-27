@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Automating APIs with Postman Workflows
+title:      Automating API Vulnerabilities Using Postman Workflows
 date: 2024-04-27 12:00
 summary:    Explore the art of automating and visually demonstrating API vulnerabilities you've identified using Postman Workflows.
 categories: security
@@ -10,11 +10,12 @@ categories: security
 <br />
 `Data EPP - Writing API exploits in Python`[^2]
 
-So, what Postman Workflows is all about?
+### So, what Postman Workflows is all about?
 
 <p align="center">
   <img src="{{ site.url }}/images/postman_flows_demonstration.gif" alt="postman_flows_demonstration" />
 </p>
+<p align="center">Demonstration by Animation (Taken from learning.postman.com)</p>
 
 ### Summarizing Up
 
