@@ -53,7 +53,7 @@ Postman Workflows is based on a <ins>sequence of HTTP requests</ins> that need t
 
 For our workflow creation, let's demonstrate it using the first crAPI challenge: accessing details of another user's vehicle location as a <a href="https://github.com/OWASP/crAPI/blob/develop/docs/challenges.md">BOLA vulnerability</a>.
 
-After signing up on the crAPI platform and adding my own vehicle under my profile, there is a blue button called `Refresh Location` Clicking this button will trigger a background API GET request including my vehicle's unique UUID as a parameter, providing us with the vehicle's real-time location:
+After signing up on the crAPI platform and adding my own vehicle under my profile, there is a blue button called `Refresh Location`. Clicking this button will trigger a background API GET request including my vehicle's unique UUID as a parameter, providing us with the vehicle's real-time location:
 
 <p align="center">
   <img src="{{ site.url }}/images/my_vehicle_request.png" alt="my_vehicle_request" />
@@ -65,7 +65,7 @@ The response of the request will provide us with the vehicle location using the 
 <p align="center">
   <img src="{{ site.url }}/images/my_vehicle_response.png" alt="my_vehicle_response" />
 </p>
-<p align="center">Return latitude and longitude vehicle data</p>
+<p align="center">Returned latitude and longitude vehicle data</p>
 
 By using the community page of the crAPI platform, we can obtain all victims data, including their vehicleId, which represents their car's UUID parameter to be provided in the above request. With this information, we can iterate over each vehicleId and send a request to the `/identity/api/v2/vehicle/UUID_PARAMETER/location` endpoint to receive their vehicle's location and achieve our malicious goal:
 
@@ -112,8 +112,8 @@ Now, let's break down each part of the graph:
 
 1. The flow continues by passing the vehicleId from the previous response as a Postman pre-defined `VEHICLE_ID` variable and adding additional `Send Request` block to trigger the BOLA API request with this parameter.
 2. Once again, we extract the data directly from the `HTTP Body` section of the returned response.
-3. To merge all of the returned victims' data from the BOLA request into one comprehensive output, we utilize the `Collect` section.
-4. Finally, we display the victims' real-time vehicle locations using the `Output` workflow block.
+3. To merge all of the returned victims' data from the BOLA request into one comprehensive output, we utilize the `Collect` block.
+4. Finally, we display the victims' real-time vehicle locations using the `Output` block.
 <br /><br />
 
 ### Summarizing Up
