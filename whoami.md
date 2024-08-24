@@ -8,7 +8,7 @@ Hello! I'm Hay.
 
 I'm here to break things and uncover life's uncertainties.
 
-Reach me at: [me@haymiz.dev](mailto:me@haymiz.dev)
+Reach me at: [haymizrachi@gmail.com](mailto:haymizrachi@gmail.com)
 
 <div class="py2 post-footer">
   <img src="{{ site.baseurl }}/images/me.png" alt="Hay Mizrachi" class="avatar" />
