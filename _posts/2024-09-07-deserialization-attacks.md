@@ -13,7 +13,7 @@ It's Hay here with another important topic.
 Today, I want to discuss about a vulnerability that is rarely talked and often stays under the hood, yet represents a significant security issue once it's found - 'Type Juggling' Vulnerability:
 
 <p align="center">
-  <img src="{{ site.url }}/images/type_juggling_wtf.jpg" alt="type_juggling_wtf" />
+  <img src="{{ site.url }}/images/i_dunno_what_to_choose.jpg" alt="i_dunno_what_to_choose" />
 </p>
 
 
