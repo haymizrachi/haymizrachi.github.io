@@ -12,7 +12,7 @@ I took a short break and returned with a new security post :relaxed:
 <br /><br />
 Let's discuss today on what Deserialization is and how to identify it, as it can sometimes lead to Remote Code Execution (RCE), Privilege Escalation and additional vulnerabilities with severe impacts on the entire application.
 <br /><br />
-This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' that called 'the kPOP challenge' that will simplify our learning process on this vulnerability in this blogpost.
+This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' which called 'the kPOP challenge' that will simplify our learning process on this vulnerability in this blog post.
 <br /><br />
 The CTF source code files can be downloaded directly from <a href="https://github.com/pwning/plaidctf2014/tree/master/web/kPOP">plaidctf2014 </a> Github repo.
 
@@ -21,7 +21,20 @@ The CTF source code files can be downloaded directly from <a href="https://githu
 </p>
 
 <br />
-To better understand the relationships between PHP classes in a more visual way, we can create a UML diagram. This diagram represents the system's structure and design, illustrating the various classes and their relationships, including inheritance, associations, and dependencies:
+The first step is to enumerate the classes used in the application and examine their relationships and correlations:
+
+1. class OutputFilter
+2. class LogFileFormat
+3. class LogWriter_File
+4. class Logger
+5. class Song
+6. class Lyrics
+7. class User
+8. class Porter
+9. class Conn
+
+<br />
+To better understand the relationships between kPOP classes in a more visual way, we can create a UML diagram. This diagram represents the system's structure and design, illustrating the various classes and their relationships, including inheritance, associations, and dependencies:
 <br />
 
 <p align="center">
