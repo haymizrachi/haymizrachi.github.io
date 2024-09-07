@@ -8,7 +8,7 @@ categories: security
 
 Cheers!
 <br />
-I took a short break and returned with a new security post.
+I took a short break and returned with a new security post :relaxed:
 <br /><br />
 Let's discuss today on a complex security vulnerability that can sometimes lead to Remote Code Execution (RCE) with severe impacts on the entire application.
 <br />
