@@ -11,7 +11,7 @@ Cheers!
 I took a short break and returned with a new security post :relaxed:
 <br /><br />
 Let's discuss today on a complex security vulnerability that can sometimes lead to Remote Code Execution (RCE) with severe impacts on the entire application.
-<br />
+<br /><br />
 This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' that simplifies the entire concept.
 
 <p align="center">
