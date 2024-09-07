@@ -13,18 +13,21 @@ I took a short break and returned with a new security post :relaxed:
 Let's discuss today on what Deserialization is and how to identify it, as it can sometimes lead to Remote Code Execution (RCE) with severe impacts on the entire application.
 <br /><br />
 This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' that called 'the kPOP challenge' that will simplify our learning process on this vulnerability.
+<br /><br />
+The CTF source code files can be downloaded directly from this <a href="https://github.com/pwning/plaidctf2014/tree/master/web/kPOP">plaidctf2014 </a> Github repo.
 
 <p align="center">
   <img src="{{ site.url }}/images/i_dunno_what_to_choose.jpeg" alt="i_dunno_what_to_choose" />
 </p>
 
 <br />
-kPOP UML Diagram creation:
+To better understand the relationships between PHP classes in a more visual way, we can create a UML diagram. This diagram represents the system's structure and design, illustrating the various classes and their relationships, including inheritance, associations, and dependencies:
+<br />
 
 <p align="center">
   <img src="{{ site.url }}/images/kpop_uml.png" alt="kpop_uml" />
 </p>
-<p align="center">UML Diagram of kPOP challenge</p>
+<p align="center">kPOP UML Diagram</p>
 
 ### Conclusion
 
