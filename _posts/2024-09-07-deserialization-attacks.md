@@ -10,11 +10,11 @@ Cheers!
 <br />
 I took a short break and returned with a new security post :relaxed:
 <br /><br />
-Let's discuss today on what Deserialization is and how to identify it, as it can sometimes lead to Remote Code Execution (RCE) with severe impacts on the entire application.
+Let's discuss today on what Deserialization is and how to identify it, as it can sometimes lead to Remote Code Execution (RCE), Privilege Escalation and additional vulnerabilities with severe impacts on the entire application.
 <br /><br />
-This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' that called 'the kPOP challenge' that will simplify our learning process on this vulnerability.
+This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' that called 'the kPOP challenge' that will simplify our learning process on this vulnerability in this blogpost.
 <br /><br />
-The CTF source code files can be downloaded directly from this <a href="https://github.com/pwning/plaidctf2014/tree/master/web/kPOP">plaidctf2014 </a> Github repo.
+The CTF source code files can be downloaded directly from <a href="https://github.com/pwning/plaidctf2014/tree/master/web/kPOP">plaidctf2014 </a> Github repo.
 
 <p align="center">
   <img src="{{ site.url }}/images/i_dunno_what_to_choose.jpeg" alt="i_dunno_what_to_choose" />
