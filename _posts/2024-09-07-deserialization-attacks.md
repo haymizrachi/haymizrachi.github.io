@@ -6,14 +6,14 @@ summary:    Uncover how deserialization attacks work with real-world examples an
 categories: security
 ---
 
-Welcome back,
+Cheers! I was take a little break and came back with a new security post.
 <br />
 It's Hay here with another important topic.
 <br /><br />
 Today, I want to discuss about a vulnerability that is rarely talked and often stays under the hood, yet represents a significant security issue once it's found - 'Type Juggling' Vulnerability:
 
 <p align="center">
-  <img src="{{ site.url }}/images/i_dunno_what_to_choose.jpg" alt="i_dunno_what_to_choose" />
+  <img src="{{ site.url }}/images/i_dunno_what_to_choose.jpeg" alt="i_dunno_what_to_choose" />
 </p>
 
 
