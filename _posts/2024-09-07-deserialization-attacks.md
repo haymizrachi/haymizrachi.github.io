@@ -6,11 +6,13 @@ summary:    Uncover how deserialization attacks work with real-world examples an
 categories: security
 ---
 
-Cheers! I was take a little break and came back with a new security post.
+Cheers!
 <br />
-It's Hay here with another important topic.
+I took a short break and returned with a new security post.
 <br /><br />
-Today, I want to discuss about a vulnerability that is rarely talked and often stays under the hood, yet represents a significant security issue once it's found - 'Type Juggling' Vulnerability:
+Let's discuss today on a complex security vulnerability that can sometimes lead to Remote Code Execution (RCE) with severe impacts on the entire application.
+<br />
+This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' that simplifies the entire concept.
 
 <p align="center">
   <img src="{{ site.url }}/images/i_dunno_what_to_choose.jpeg" alt="i_dunno_what_to_choose" />
