@@ -23,17 +23,11 @@ The CTF source code files can be downloaded directly from <a href="https://githu
 <br />
 In PHP, some applications involve handling serialized data, often encoded in base64 format, to function correctly. It's crucial to examine how this data is unserialized to ensure it is done safely. We want to look after instances where data is unserialized without proper validation or where serialized input is trusted directly. Key indicators of potential vulnerabilities include the use of functions like `unserialize()` and `serialize()` with user-provided input, which can expose the application to risks if not carefully managed.
 <br /><br />
-The first step is to enumerate the classes used in the application and examine their relationships and correlations:
+The first step is to enumerate the classes used in the application and examine their relationships and correlations. This can be easily achieved by using `CTRL+SHIFT+F` in Visual Studio Code:
 <br />
-1. class OutputFilter
-2. class LogFileFormat
-3. class LogWriter_File
-4. class Logger
-5. class Song
-6. class Lyrics
-7. class User
-8. class Porter
-9. class Conn
+<p align="center">
+  <img src="{{ site.url }}/images/vscode_classes_list.png" alt="vscode_classes_list" />
+</p>
 
 To better understand the relationships between kPOP classes in a more visual way, we can create a UML diagram. This diagram represents the system's structure and design, illustrating the various classes and their relationships, including inheritance, associations, and dependencies:
 <br />
