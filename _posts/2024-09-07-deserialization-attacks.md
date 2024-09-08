@@ -12,7 +12,7 @@ I took a short break and returned with a new security post :relaxed:
 <br /><br />
 Let's discuss today on what Deserialization is and how to identify it, as it can sometimes lead to Remote Code Execution (RCE), Privilege Escalation and additional vulnerabilities with severe impacts on the entire application.
 <br /><br />
-This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' which called 'the kPOP challenge' that will simplify our learning process on this vulnerability in this blog post.
+This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' called 'the kPOP challenge' which will help us better understand this vulnerability in this blog post.
 <br /><br />
 __Note:__ This challenge can be solved using two different approaches to achieve the same outcome. In this post, we will present one of them.
 <br /><br />
