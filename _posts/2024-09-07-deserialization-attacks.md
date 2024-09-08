@@ -14,6 +14,8 @@ Let's discuss today on what Deserialization is and how to identify it, as it can
 <br /><br />
 This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' which called 'the kPOP challenge' that will simplify our learning process on this vulnerability in this blog post.
 <br /><br />
+__Note:__ This challenge can be solved using two different approaches to achieve the same outcome. In this post, we will present one of them.
+<br /><br />
 The CTF source code files can be downloaded directly from <a href="https://github.com/pwning/plaidctf2014/tree/master/web/kPOP">plaidctf2014 </a> Github repo.
 
 <p align="center">
