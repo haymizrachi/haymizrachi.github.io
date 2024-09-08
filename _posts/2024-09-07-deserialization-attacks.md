@@ -37,6 +37,7 @@ To better understand the relationships between kPOP classes in a more visual way
 </p>
 <p align="center">kPOP UML Diagram</p>
 
+<br />
 The final serialized payload will be as follows, in Base64 format:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
