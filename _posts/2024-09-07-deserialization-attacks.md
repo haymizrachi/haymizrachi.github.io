@@ -67,7 +67,7 @@ We can use the PlantUML Editor[^1] to visualize the decoded payload in a Class O
 <p align="center">
   <img src="{{ site.url }}/images/unserialize_poc.png" alt="unserialize_poc" />
 </p>
-<p align="center">unserialize.com</p>
+<p align="center">PHP Class Object representation</p>
 
 ### Conclusion
 
