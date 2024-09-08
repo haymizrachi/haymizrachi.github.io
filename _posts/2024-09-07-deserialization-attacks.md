@@ -59,7 +59,6 @@ The final serialized payload will be as follows, in Base64 format:
 <br />
 `czo2OiIAKgB1cmwiO3M6MTk6Imh0dHBzOlwvXC9zaGVsbC5jb20iO319`
 
-<br />
 
 We can use the PlantUML Editor[^1] to visualize the decoded payload in a Class Object format:
 <br />
