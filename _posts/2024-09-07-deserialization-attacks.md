@@ -24,16 +24,18 @@ The CTF source code files can be downloaded directly from <a href="https://githu
 
 <br />
 Let's get started –
-<br />
+<br /><br />
 Applications, in general, often rely on handling serialized data to function correctly. It's crucial to examine how this data is deserialized to ensure it's done safely. As attackers or researchers, we focus on instances where data is deserialized without proper validation or where serialized input is directly trusted. These vulnerabilities, known as `sinks` can occur in functions like `unserialize()` and `serialize()` that depend on user-provided input.
 <br /><br />
-The first step is to enumerate the classes used in the application and examine their relationships and correlations. This can be easily achieved by using `CTRL+SHIFT+F` in Visual Studio Code:
+Once we understand what we're looking for, let's take a closer look at the application's source code:
+<br /><br />
+The first step is to identify the PHP classes used within the application and examine their relationships and interactions. This can be easily be done by using the `CTRL+SHIFT+F` shortcut in Visual Studio Code:
 <br />
 <p align="center">
   <img src="{{ site.url }}/images/vscode_classes_list.png" alt="vscode_classes_list" />
 </p>
 
-To better understand the relationships between kPOP classes in a more visual way, we can create a UML diagram. This diagram represents the system's structure and design, illustrating the various classes and their relationships, including inheritance, associations, and dependencies:
+In order to better understand the relationships between kPOP classes in a more visual way, we can create a UML diagram. This diagram represents the system's structure and design, illustrating the various classes and their relationships, including inheritance, associations, and dependencies:
 <br />
 
 <p align="center">
