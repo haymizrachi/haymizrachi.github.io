@@ -10,11 +10,11 @@ Cheers!
 <br />
 I took a short break and returned with a new security post :relaxed:
 <br /><br />
-Let's discuss today on what Deserialization is and how to identify it, as it can sometimes lead to Remote Code Execution (RCE), Privilege Escalation and additional vulnerabilities with severe impacts on the entire application.
+Let's discuss today on what Deserialization is and give a demonstration example, as it can sometimes can lead to Remote Code Execution (RCE), Privilege Escalation and additional weaknesses with severe impacts on the entire application.
 <br /><br />
 This time, I was digging deep inside the Internet and discovered a cool Deseralization challenge from '<a href="https://ctftime.org/event/119">Plaid CTF 2014</a>' called 'the kPOP challenge' which will help us better understand this vulnerability in this blog post.
 <br /><br />
-__Note:__ This challenge can be solved using two different approaches to achieve the same outcome. In this post, we will present one of them.
+__Note:__ This challenge can be solved using two different approaches to achieve the same outcome. In this post, we chose to present one of them.
 <br /><br />
 The CTF source code files can be downloaded directly from <a href="https://github.com/pwning/plaidctf2014/tree/master/web/kPOP">plaidctf2014 </a> Github repo.
 
@@ -23,7 +23,9 @@ The CTF source code files can be downloaded directly from <a href="https://githu
 </p>
 
 <br />
-In PHP, some applications involve handling serialized data, often encoded in base64 format, to function correctly. It's crucial to examine how this data is unserialized to ensure it is done safely. We want to look after instances where data is unserialized without proper validation or where serialized input is trusted directly. Key indicators of potential vulnerabilities include the use of functions like `unserialize()` and `serialize()` with user-provided input, which can expose the application to risks if not carefully managed.
+Let's get started –
+<br />
+Applications, in general, often rely on handling serialized data to function correctly. It's crucial to examine how this data is deserialized to ensure it's done safely. As attackers or researchers, we focus on instances where data is deserialized without proper validation or where serialized input is directly trusted. These vulnerabilities, known as `sinks` can occur in functions like `unserialize()` and `serialize()` that depend on user-provided input.
 <br /><br />
 The first step is to enumerate the classes used in the application and examine their relationships and correlations. This can be easily achieved by using `CTRL+SHIFT+F` in Visual Studio Code:
 <br />
