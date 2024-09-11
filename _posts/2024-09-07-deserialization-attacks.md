@@ -52,7 +52,6 @@ Using the same method in VSCode, let's search for all occurrences of the `unseri
 <p align="center">
   <img src="{{ site.url }}/images/unserialize_function.png" alt="unserialize_function" />
 </p>
-<p align="center">kPOP UML Diagram</p>
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
 
