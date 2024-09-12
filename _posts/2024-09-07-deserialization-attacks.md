@@ -58,7 +58,7 @@ The search results show three different occurrences, appearing in two files:
 2. import.php
 <br />
 <br />
-We can see that some of the occurences of `serialize` is depends on SQL return results ($row[0]) which not depends on user input, while the other looks more promising.
+We can see that some occurrences of `serialize` depend on SQL return results (e.g., $row[0]), which are not influenced by user input. However, the other instances appear more promising for us.
 <br />
 We will focus on import.php file:
 <br />
