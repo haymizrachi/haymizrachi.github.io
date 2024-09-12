@@ -54,8 +54,8 @@ Using the same method in VSCode, let's search for all occurrences of the `unseri
 </p>
 The search results show three different occurrences, appearing in two files:
 <br />
-1. classes.php
-2. import.php
+* classes.php
+* import.php
 <br />
 <br />
 We can see that some occurrences of `serialize` depend on SQL return results (e.g., $row[0]), which are not influenced by user input. However, the other instances appear more promising for us.
