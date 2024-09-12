@@ -57,6 +57,16 @@ The search results show three different occurrences, appearing in two files:
 1. classes.php
 2. import.php
 <br /><br />
+We can see that some of the occurences of `serialize` is depends on SQL return results ($row[0]) which not depends on user input, while the other looks more promising.
+<br />
+We will focus on import.php file:
+<br />
+<p align="center">
+  <img src="{{ site.url }}/images/unserialize_import_php.png" alt="unserialize_import_php" />
+</p>
+
+
+<br /><br />
 The final serialized payload will be as follows, in Base64 format:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
