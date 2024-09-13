@@ -120,8 +120,12 @@ We can see that the `Song` class is the one that initiates the entire class call
 To summarize what we’ve covered so far:
   1. We need to exploit the `file_put_contents` functionality to write a webshell.
   2. We need to initialize the `$filename` variable under the LogWriter_File class with a value of `cmd.php`.
-  3. We need to insert our malicious PHP code as a content to the `cmd`.php file triggered by the `writeLog` function.
+  3. We need to insert our malicious PHP code as a content to the `cmd.php` file triggered by the `writeLog` function.
   4. Finally, we need to invoke the correct sequence order of classes in our final payload, as shown above.
+
+<p align="center">
+  <img src="{{ site.url }}/images/all_the_magic_happens.png" alt="all_the_magic_happens" />
+</p>
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
