@@ -53,11 +53,10 @@ Using the same method in VSCode, let's search for all occurrences of the `unseri
   <img src="{{ site.url }}/images/unserialize_function.png" alt="unserialize_function" />
 </p>
 The search results show three different occurrences, appearing in two files:
-<br />
 * classes.php
 * import.php
 <br />
-We can see that some occurrences of `serialize` depend on SQL return results (e.g., $row[0]), which are not influenced by user input. However, the other instances appear more promising for us.
+We can see that some occurrences of `serialize` depend on SQL return results (e.g., $row[0]), which are not influenced by user input. However, the other instances appear to be more promising for us.
 <br />
 We will focus on import.php file:
 <br />
