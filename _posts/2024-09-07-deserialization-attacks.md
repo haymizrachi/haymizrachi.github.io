@@ -182,9 +182,11 @@ The `cmd.php` file was created, revealing the challenge flag and the execution o
 
 ### Conclusion
 
-Deserialization vulnerabilities have quite high entry barrier and require strong programming and research skills, making them as one of the most difficult vulnerabilities to identify in web applications. However, they have the most impactful severities once discovered.
+In this article, we presented a deserialization challenge that highlights how it can be exploited by malicious hackers to take over an entire application.
 
-I challenge you to keep looking after these vulnerabilities and not give up!
+Those attacks have quite high entry barrier and require strong programming and research skills, making them as one of the most difficult vulnerabilities to identify in web applications. However, they have the most impactful severities once discovered.
+
+Hope you've learned something new to add to your arsenal of vulnerabilities to look for during Code Review engagements.
 
 <p align="center">
   <img src="{{ site.url }}/images/deserialization_was_easy.jpeg" alt="deserialization_was_easy" />
