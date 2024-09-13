@@ -35,7 +35,7 @@ The first step is to identify the PHP classes used within the application and ex
   <img src="{{ site.url }}/images/vscode_classes_list.png" alt="vscode_classes_list" />
 </p>
 
-In order to better understand the relationships between kPOP classes in a more visual way, we can create a UML diagram based on the above class properties. This diagram represents the system's structure and design, illustrating the various classes and their relationships, including inheritance, associations, and dependencies:
+In order to better understand the relationships between kPOP classes in a more visual way, we can create a UML diagram based on the above class properties using PlantUML Editor[^1]. This diagram represents the system's structure and design, illustrating the various classes and their relationships, including inheritance, associations, and dependencies:
 <br />
 
 <p align="center">
@@ -88,7 +88,7 @@ The final serialized payload will be as follows, in Base64 format:
 `czo2OiIAKgB1cmwiO3M6MTk6Imh0dHBzOlwvXC9zaGVsbC5jb20iO319`
 
 
-We can use the PlantUML Editor[^1] to visualize the decoded payload in a Class Object format:
+We can use the Online PHP Unserializer[^2] to visualize the decoded payload in a Class Object format:
 <br />
 
 <p align="center">
@@ -106,8 +106,6 @@ I challenge you to keep looking after these vulnerabilities and not give up!
   <img src="{{ site.url }}/images/deserialization_was_easy.jpeg" alt="deserialization_was_easy" />
 </p>
 
-PlantUML Editor[^1]
-<br />
 Online PHP Unserializer[^2]
 
 <br />
