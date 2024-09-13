@@ -25,7 +25,7 @@ The CTF source code files can be downloaded directly from <a href="https://githu
 <br />
 Let's get started –
 <br /><br />
-Applications, in general, often rely on handling serialized data to function correctly. It's crucial to examine how this data is deserialized to ensure it's done safely. As attackers or researchers, we focus on instances where data is deserialized without proper validation or where serialized input is directly trusted. These deserialization opportunities, known as `sinks` can occur in functions like `unserialize()` and `serialize()` that depend on user-provided input.
+Applications, in general, often rely on handling serialized data to function correctly. It's crucial to examine how this data is deserialized to ensure it's done safely. As attackers or researchers, we focus on instances where data is deserialized without proper validation or where serialized input is directly trusted. These deserialization opportunities, known as `sinks` can occur in a specific functions like `unserialize()` and `serialize()` that depend on user-provided input.
 <br /><br />
 Once we understand what we're looking for, let's take a closer look at the application's source code:
 <br /><br />
@@ -54,8 +54,8 @@ Using the same method in VSCode, let's search for all occurrences of the `unseri
 </p>
 The search results show three different occurrences, appearing in two files:
 <br />
-* classes.php
-* import.php
+- classes.php
+- import.php
 <br />
 <br />
 We can see that some occurrences of `serialize` depend on SQL return results (e.g., $row[0]), which are not influenced by user input. However, the other instances appear more promising for us.
