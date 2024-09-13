@@ -2,7 +2,7 @@
 layout:     post
 title:      Exploring Deserialization Attacks and Their Effects
 date: 2024-09-07 12:00
-summary:    Uncover how deserialization attacks work with real-world examples and learn how to mitigate their risks.
+summary:    Uncover how deserialization attacks work with real-world example and learn how to mitigate their risks.
 categories: security
 ---
 
@@ -65,13 +65,15 @@ We will focus on the `import.php` file:
 </p>
 Class objects are immediately get deserialized once an `unserialize` call is triggered. We can exploit line 5 in the image above to inject our malicious class object, which will be demonstrated later in this article.
 <br /><br />
-At this stage, we have an injection entry point that depends on the provided `$_POST['data']` parameter. Let's now take a closer look at the class declarations themselves.
+At this stage, we have an injection entry point that depends on the provided `$_POST['data']` parameter and get serialized. Let's now take a closer look at the class declarations themselves.
 
-When examining the code, the function that immediately caught my eye on is `file_put_contents`. To better understand its usage, I referred to the PHP.net documentation page:
+When examining the code, the function that immediately caught my eye on is `file_put_contents`. To better understand its usage, I referred to the `PHP.net` documentation page:
 
 <p align="center">
   <img src="{{ site.url }}/images/file_put_contents_php.png" alt="file_put_contents_php" />
 </p>
+
+This function can be our first primitive for finding a way to write a malicious file on the web server's filesystem, which could serve as a web shell backdoor for executing shell commands!
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
