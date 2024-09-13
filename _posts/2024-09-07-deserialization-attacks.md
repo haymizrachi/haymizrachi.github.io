@@ -103,6 +103,8 @@ Let's continue on. In order to control the written filename, we need to identify
 
 LogWriter_File is the relevant class. In the class declaration, we can see that the `$filename` variable is set to our desired file name within the LogWriter_File constructor (refer to the 'LogWriter_File Declaration' picture).
 
+In the same picture, we also can see that the content of the file is holded by the `$txt` parameter under the `writeLog` function inside `LogWriter_File` class.
+
 To summary things up so far:
   1. We need to use the `file_put_contents` function to write a webshell.
   2. We need to initialize the `$filename` variable of LogWriter_File with value of `cmd.php`
