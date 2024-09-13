@@ -65,6 +65,15 @@ We will focus on the `import.php` file:
 </p>
 Class objects are immediately get deserialized once an `unserialize` call is triggered. We can exploit line 5 in the image above to inject our malicious class object, which will be demonstrated later in this article.
 <br /><br />
+At this stage, we have an injection entry point that depends on the provided `$_POST['data']` parameter. Let's now take a closer look at the class declarations themselves.
+
+When examining the code, the function that immediately caught my eye on is `file_put_contents`. To better understand its usage, I referred to the PHP.net documentation page:
+
+<p align="center">
+  <img src="{{ site.url }}/images/file_put_contents_php.png" alt="file_put_contents_php" />
+</p>
+
+<br /><br />
 The final serialized payload will be as follows, in Base64 format:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
@@ -98,16 +107,13 @@ We can use the Online PHP Unserializer[^2] to visualize the decoded payload in a
 
 ### Conclusion
 
-Deserialization vulnerabilities have a high entry barrier and require strong programming and research skills, making them some of the most difficult vulnerabilities to identify in web applications. However, they have the most impactful severities when discovered.
+Deserialization vulnerabilities have quite high entry barrier and require strong programming and research skills, making them as one of the most difficult vulnerabilities to identify in web applications. However, they have the most impactful severities once discovered.
 
 I challenge you to keep looking after these vulnerabilities and not give up!
 
 <p align="center">
   <img src="{{ site.url }}/images/deserialization_was_easy.jpeg" alt="deserialization_was_easy" />
 </p>
-
-Online PHP Unserializer[^2]
-
 <br />
 Thanks for reading!
 
