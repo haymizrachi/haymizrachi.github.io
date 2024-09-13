@@ -78,6 +78,7 @@ When examining the code, the function that immediately caught my eye on is `file
 <p align="center">
   <img src="{{ site.url }}/images/logwriter_file_put_contents.png" alt="logwriter_file_put_contents" />
 </p>
+<p align="center">LogWriter_File declaration</p>
 
 To better understand its usage, I referred to the `PHP.net` documentation page:
 
@@ -91,6 +92,20 @@ This function can be our <ins>first primitive</ins> for finding a way to write a
 So, if we can control the filename written to disk (e.g., `cmd.php`) and its contents, we can write PHP code such as `system()` function to execute any command that we want.
 
 We need to keep this in mind as we piece together the relationships between all the other classes, much like solving a puzzle, to successfully navigate this path and create our final malicious class object 😈
+
+<br />
+Let's continue on. In order to control the written filename, we need to identify which class holds this filename as a variable and gain control over it in our class object. This is illustrated in the following image:
+
+<p align="center">
+  <img src="{{ site.url }}/images/logwriter_file_filename.png" alt="logwriter_file_filename" />
+</p>
+<p align="center">Song class contains LogWriter_File object instance</p>
+
+LogWriter_File is the relevant class. In the class declaration, we can see that the `$filename` variable is set to our desired file name within the LogWriter_File constructor (refer to the 'LogWriter_File Declaration' picture).
+
+To summary things up so far:
+  1. We need to use the `file_put_contents` function to write a webshell.
+  2. We need to initialize the `$filename` variable of LogWriter_File with value of `cmd.php`
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
