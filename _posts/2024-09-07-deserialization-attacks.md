@@ -188,9 +188,6 @@ Those attacks have quite high entry barrier and require strong programming and r
 
 Hope you've learned something new to add to your arsenal of vulnerabilities to look for during Code Review engagements.
 
-<p align="center">
-  <img src="{{ site.url }}/images/deserialization_was_easy.jpeg" alt="deserialization_was_easy" />
-</p>
 <br />
 Thanks for reading!
 
