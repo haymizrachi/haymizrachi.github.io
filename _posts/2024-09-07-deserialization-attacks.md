@@ -167,13 +167,18 @@ We can use the Online PHP Unserializer[^2] to visualize the encoded payload in a
   <img src="{{ site.url }}/images/unserialize_poc.png" alt="unserialize_poc" />
 </p>
 <p align="center">PHP Class Object representation</p>
-
+<br />
 And finally, gentlemen, music please — it's time to execute our malicious serialized payload on the `import.php` page!
 
 <p align="center">
   <img src="{{ site.url }}/images/import_final_payload.png" alt="import_final_payload" />
 </p>
-<p align="center">PHP Class Object representation</p>
+
+We've captured the challenge flag and executed the `ls -l` command!
+
+<p align="center">
+  <img src="{{ site.url }}/images/challenge_flag.png" alt="challenge_flag" />
+</p>
 
 ### Conclusion
 
