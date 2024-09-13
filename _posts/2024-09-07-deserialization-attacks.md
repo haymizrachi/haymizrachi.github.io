@@ -68,7 +68,7 @@ Which appears like this in the browser UI:
   <img src="{{ site.url }}/images/import_php_file.png" alt="import_php_file" />
 </p>
 <p align="center">http://127.0.0.1/kPOP/import.php</p>
-
+<br />
 Class objects are immediately get deserialized once an `unserialize` call is triggered. We can exploit line 5 in the image above to inject our malicious class object, which will be demonstrated later in this article.
 <br /><br />
 At this stage, we have an injection entry point that depends on the provided `$_POST['data']` parameter and get serialized. Let's now take a closer look at the class declarations themselves.
