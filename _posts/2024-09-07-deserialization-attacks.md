@@ -63,8 +63,8 @@ We will focus on the `import.php` file:
 <p align="center">
   <img src="{{ site.url }}/images/unserialize_import_php.png" alt="unserialize_import_php" />
 </p>
-Class objects are immediately deserialized when an `unserialize` call is triggered. We can exploit line 5 in the image above to inject our malicious class object, which will be demonstrated later in this article.
-<br />
+Class objects are immediately get deserialized once an `unserialize` call is triggered. We can exploit line 5 in the image above to inject our malicious class object, which will be demonstrated later in this article.
+<br /><br />
 The final serialized payload will be as follows, in Base64 format:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
@@ -97,6 +97,14 @@ We can use the PlantUML Editor[^1] to visualize the decoded payload in a Class O
 <p align="center">PHP Class Object representation</p>
 
 ### Conclusion
+
+Deserialization vulnerabilities have a high entry barrier and require strong programming and research skills, making them some of the most difficult vulnerabilities to identify in web applications. However, they have the most impactful severities when discovered.
+
+I challenge you to keep looking after these vulnerabilities and not give up!
+
+<p align="center">
+  <img src="{{ site.url }}/images/deserialization_was_easy.jpeg" alt="deserialization_was_easy" />
+</p>
 
 PlantUML Editor[^1]
 <br />
