@@ -67,7 +67,13 @@ Class objects are immediately get deserialized once an `unserialize` call is tri
 <br /><br />
 At this stage, we have an injection entry point that depends on the provided `$_POST['data']` parameter and get serialized. Let's now take a closer look at the class declarations themselves.
 
-When examining the code, the function that immediately caught my eye on is `file_put_contents`. To better understand its usage, I referred to the `PHP.net` documentation page:
+When examining the code, the function that immediately caught my eye on is `file_put_contents` within the `writeLog` function, located in the `LogWriter_File` class in the `classes.php` file:
+
+<p align="center">
+  <img src="{{ site.url }}/images/logwriter_file_put_contents.png" alt="logwriter_file_put_contents" />
+</p>
+
+To better understand its usage, I referred to the `PHP.net` documentation page:
 
 <p align="center">
   <img src="{{ site.url }}/images/file_put_contents_php.png" alt="file_put_contents_php" />
