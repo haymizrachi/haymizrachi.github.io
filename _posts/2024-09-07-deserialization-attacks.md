@@ -93,8 +93,6 @@ So, if we can control the filename written to disk (e.g., `cmd.php`) and its con
 
 We need to keep this in mind as we piece together the relationships between all the other classes, much like solving a puzzle, to successfully navigate this path and create our final malicious class object 😈
 
-The `file_put_contents` function is triggered by 
-
 <br />
 Let's continue on. In order to control the written filename, we need to identify which class holds this filename as a variable and gain control over it in our class object. This is illustrated in the following image:
 
@@ -107,7 +105,14 @@ LogWriter_File is the relevant class. In the class declaration, we can see that 
 
 In the same image, we can also see that the content of the file is stored in the `$txt` parameter within the `writeLog` function of the LogWriter_File class.
 
-XX
+To control both the filename and content of the file using the `file_put_contents` function, we need to follow the class calling orders and determine where and by whom the `writeLog` function is invoked.
+
+Let's illustrate this in the following picture:
+
+<p align="center">
+  <img src="{{ site.url }}/images/flow_write_diagram.png" alt="flow_write_diagram" />
+</p>
+<p align="center">Classes calling order</p>
 
 <br />
 To summarize what we’ve covered so far:
