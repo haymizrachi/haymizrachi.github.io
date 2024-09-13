@@ -63,6 +63,12 @@ We will focus on the `import.php` file:
 <p align="center">
   <img src="{{ site.url }}/images/unserialize_import_php.png" alt="unserialize_import_php" />
 </p>
+Which appears like this in the browser UI:
+<p align="center">
+  <img src="{{ site.url }}/images/import_php_file.png" alt="import_php_file" />
+</p>
+<p align="center">http://127.0.0.1/kPOP/import.php</p>
+
 Class objects are immediately get deserialized once an `unserialize` call is triggered. We can exploit line 5 in the image above to inject our malicious class object, which will be demonstrated later in this article.
 <br /><br />
 At this stage, we have an injection entry point that depends on the provided `$_POST['data']` parameter and get serialized. Let's now take a closer look at the class declarations themselves.
@@ -84,7 +90,7 @@ This function can be our <ins>first primitive</ins> for finding a way to write a
 <br /><br />
 So, if we can control the filename written to disk (e.g., `cmd.php`) and its contents, we can write PHP code such as `system()` function to execute any command that we want.
 
-We need to keep this in mind as we piece together the relationships between all the other classes, much like solving a puzzle, to successfully navigate this path and create out final malicious class object 😈
+We need to keep this in mind as we piece together the relationships between all the other classes, much like solving a puzzle, to successfully navigate this path and create our final malicious class object 😈
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
