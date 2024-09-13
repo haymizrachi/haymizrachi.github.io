@@ -114,6 +114,8 @@ Let's illustrate this in the following picture:
 </p>
 <p align="center">Classes calling order</p>
 
+We can see that the `Song` class is the one that initiates the entire class calling sequence to the desired `file_put_contents` function.
+
 <br />
 To summarize what we’ve covered so far:
   1. We need to exploit the `file_put_contents` functionality to write a webshell.
