@@ -111,9 +111,9 @@ XX
 
 <br />
 To summarize what we’ve covered so far:
-  1. We need to abuse the `file_put_contents` functionality to write a webshell.
-  2. We need to initialize the `$filename` variable of LogWriter_File with value of `cmd.php` for example
-  3. We need to take into condiferation the composition classes in the same order they appearning in the `kPOP UML Diagram` picture to save the same class hierarchy order in our final payload.
+  1. We need to exploit the `file_put_contents` functionality to write a webshell.
+  2. We need to initialize the `$filename` variable under the LogWriter_File class with a value such as `cmd.php`.
+  3. We need to consider the composition of classes in the same order they appear in the `kPOP UML Diagram` to maintain the correct class hierarchy in our final payload.
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
