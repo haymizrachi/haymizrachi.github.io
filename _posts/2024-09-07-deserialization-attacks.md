@@ -93,6 +93,8 @@ So, if we can control the filename written to disk (e.g., `cmd.php`) and its con
 
 We need to keep this in mind as we piece together the relationships between all the other classes, much like solving a puzzle, to successfully navigate this path and create our final malicious class object 😈
 
+The `file_put_contents` function is triggered by 
+
 <br />
 Let's continue on. In order to control the written filename, we need to identify which class holds this filename as a variable and gain control over it in our class object. This is illustrated in the following image:
 
@@ -103,11 +105,15 @@ Let's continue on. In order to control the written filename, we need to identify
 
 LogWriter_File is the relevant class. In the class declaration, we can see that the `$filename` variable is set to our desired file name within the LogWriter_File constructor (refer to the 'LogWriter_File Declaration' picture).
 
-In the same picture, we also can see that the content of the file is holded by the `$txt` parameter under the `writeLog` function inside `LogWriter_File` class.
+In the same image, we can also see that the content of the file is stored in the `$txt` parameter within the `writeLog` function of the LogWriter_File class.
 
-To summary things up so far:
-  1. We need to use the `file_put_contents` function to write a webshell.
-  2. We need to initialize the `$filename` variable of LogWriter_File with value of `cmd.php`
+XX
+
+<br />
+To summarize what we’ve covered so far:
+  1. We need to abuse the `file_put_contents` functionality to write a webshell.
+  2. We need to initialize the `$filename` variable of LogWriter_File with value of `cmd.php` for example
+  3. We need to take into condiferation the composition classes in the same order they appearning in the `kPOP UML Diagram` picture to save the same class hierarchy order in our final payload.
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
@@ -133,7 +139,7 @@ The final serialized payload will be as follows, in Base64 format:
 `czo2OiIAKgB1cmwiO3M6MTk6Imh0dHBzOlwvXC9zaGVsbC5jb20iO319`
 
 
-We can use the Online PHP Unserializer[^2] to visualize the decoded payload in a Class Object format:
+We can use the Online PHP Unserializer[^2] to visualize the encoded payload in a Class Object format:
 <br />
 
 <p align="center">
