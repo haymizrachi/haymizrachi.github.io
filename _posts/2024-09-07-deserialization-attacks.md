@@ -174,7 +174,7 @@ And finally, gentlemen, music please — it's time to execute our malicious seri
   <img src="{{ site.url }}/images/import_final_payload.png" alt="import_final_payload" />
 </p>
 
-We've captured the challenge flag and executed the `ls -l` command!
+The `cmd.php` file was created, revealing the challenge flag and allowing us to execute the `ls -l` command!
 
 <p align="center">
   <img src="{{ site.url }}/images/challenge_flag.png" alt="challenge_flag" />
