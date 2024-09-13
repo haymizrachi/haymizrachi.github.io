@@ -75,6 +75,8 @@ When examining the code, the function that immediately caught my eye on is `file
 <p align="center">PHP.net Manual</p>
 
 This function can be our <ins>first primitive</ins> for finding a way to write a malicious file on the web server's filesystem, which could serve as a web shell backdoor for executing shell commands!
+<br /><br />
+So, if we can control the filename written to disk (e.g., `cmd.php`) and its contents, we can write PHP code such as `system()` function to execute any command we want.
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
