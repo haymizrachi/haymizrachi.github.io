@@ -74,7 +74,7 @@ When examining the code, the function that immediately caught my eye on is `file
 </p>
 <p align="center">PHP.net Manual</p>
 
-This function can be our first primitive for finding a way to write a malicious file on the web server's filesystem, which could serve as a web shell backdoor for executing shell commands!
+This function can be our <ins>first primitive</ins> for finding a way to write a malicious file on the web server's filesystem, which could serve as a web shell backdoor for executing shell commands!
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
