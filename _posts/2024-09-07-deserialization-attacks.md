@@ -52,7 +52,7 @@ Using the same method in VSCode, let's search for all occurrences of the `unseri
 <p align="center">
   <img src="{{ site.url }}/images/unserialize_function.png" alt="unserialize_function" />
 </p>
-The search results show three different occurrences, appearing in two files:
+The search results reveal three different occurrences, spread across two files:
 * classes.php
 * import.php
 
@@ -63,9 +63,8 @@ We will focus on the `import.php` file:
 <p align="center">
   <img src="{{ site.url }}/images/unserialize_import_php.png" alt="unserialize_import_php" />
 </p>
-
-
-<br /><br />
+Class objects are immediately deserialized when an `unserialize` call is triggered. We can exploit line 5 in the image above to inject our malicious class object, which will be demonstrated later in this article.
+<br />
 The final serialized payload will be as follows, in Base64 format:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
