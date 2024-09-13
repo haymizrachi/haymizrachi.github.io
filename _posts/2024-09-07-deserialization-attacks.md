@@ -114,13 +114,14 @@ Let's illustrate this in the following picture:
 </p>
 <p align="center">Classes calling order</p>
 
-We can see that the `Song` class is the one that initiates the entire class calling sequence to the desired `file_put_contents` function.
+We can see that the `Song` class is the one that initiates the entire class calling sequence to our desired `file_put_contents` function.
 
 <br />
 To summarize what we’ve covered so far:
   1. We need to exploit the `file_put_contents` functionality to write a webshell.
-  2. We need to initialize the `$filename` variable under the LogWriter_File class with a value such as `cmd.php`.
-  3. We need to consider the composition of classes in the same order they appear in the `kPOP UML Diagram` to maintain the correct class hierarchy in our final payload.
+  2. We need to initialize the `$filename` variable under the LogWriter_File class with a value of `cmd.php`.
+  3. We need to insert our malicious PHP code as a content to the `cmd`.php file triggered by the `writeLog` function.
+  4. Finally, we need to invoke the correct sequence order of classes in our final payload, as shown above.
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
