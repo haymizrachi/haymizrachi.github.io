@@ -67,7 +67,7 @@ Class objects are immediately get deserialized once an `unserialize` call is tri
 <br /><br />
 At this stage, we have an injection entry point that depends on the provided `$_POST['data']` parameter and get serialized. Let's now take a closer look at the class declarations themselves.
 
-When examining the code, the function that immediately caught my eye on is `file_put_contents` within the `writeLog` function, located in the `LogWriter_File` class in the `classes.php` file:
+When examining the code, the function that immediately caught my eye on is `file_put_contents` within the `writeLog` function, located in the `LogWriter_File` class inside `classes.php` file:
 
 <p align="center">
   <img src="{{ site.url }}/images/logwriter_file_put_contents.png" alt="logwriter_file_put_contents" />
@@ -82,7 +82,9 @@ To better understand its usage, I referred to the `PHP.net` documentation page:
 
 This function can be our <ins>first primitive</ins> for finding a way to write a malicious file on the web server's filesystem, which could serve as a web shell backdoor for executing shell commands!
 <br /><br />
-So, if we can control the filename written to disk (e.g., `cmd.php`) and its contents, we can write PHP code such as `system()` function to execute any command we want.
+So, if we can control the filename written to disk (e.g., `cmd.php`) and its contents, we can write PHP code such as `system()` function to execute any command that we want.
+
+We need to keep this in mind as we piece together the relationships between all the other classes, much like solving a puzzle, to successfully navigate this path and create out final malicious class object 😈
 
 <br /><br />
 The final serialized payload will be as follows, in Base64 format:
