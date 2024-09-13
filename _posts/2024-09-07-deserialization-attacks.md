@@ -124,11 +124,11 @@ To summarize what we’ve covered so far:
   4. Finally, we need to invoke the correct sequence order of classes in our final payload, as shown above.
 
 <p align="center">
-  <img src="{{ site.url }}/images/all_the_magic_happens.png" alt="all_the_magic_happens" />
+  <img src="{{ site.url }}/images/all_the_magic_happens.jpg" alt="all_the_magic_happens" />
 </p>
 
 <br /><br />
-The final serialized payload will be as follows, in Base64 format:
+The final serialized payload will be as follows, in base64 format:
 
 `Tzo2OiJMeXJpY3MiOjI6e3M6OToiACoAbHlyaWNzIjtzOjEyOiJzaGVsbF9seXJpY3MiO3M6`
 <br />
