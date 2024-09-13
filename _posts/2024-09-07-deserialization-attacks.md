@@ -57,18 +57,9 @@ The search results show three different occurrences, appearing in two files:
 * import.php
 
 We can see that some occurrences of `serialize` depend on SQL return results (e.g., $row[0]), which are not influenced by user input. However, the other instances appear to be more promising for us.
+<br /><br />
+We will focus on the `import.php` file:
 <br />
-We will focus on import.php file:
-<br />
-This tool offers a wide range of built-in capabilities for interacting with API requests, for example: 
-* Load `OpenAPI` specifications as API documentation
-* Execute a sequence of HTTP requests using the `Collection Runner` feature
-* Interact with `GraphQL` API instances
-* Visualizing outcomes using the `Postman Visualizer` tool
-
-And finally the crown jewels: the `Postman Workflows` feature.
-
-So,
 <p align="center">
   <img src="{{ site.url }}/images/unserialize_import_php.png" alt="unserialize_import_php" />
 </p>
