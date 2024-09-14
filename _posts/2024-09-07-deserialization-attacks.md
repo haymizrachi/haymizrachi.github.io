@@ -93,6 +93,8 @@ So, if we can control the filename written to disk (e.g., `cmd.php`) and its con
 
 We need to keep this in mind as we piece together the relationships between all the other classes, much like solving a puzzle, to successfully navigate this path and create our final malicious class object 😈
 
+To put it in a nutshell, when a class object is injected, it begins executing what are called `Magic Methods.` These methods follow a naming convention with double leading and trailing underscores, such as `__construct()` or `__destruct()`. We need to analyze these methods to identify which classes implement them, as they will trigger our object to execute.
+
 <br />
 Let's continue on. In order to control the written filename, we need to identify which class holds this filename as a variable and gain control over it in our class object. This is illustrated in the following image:
 
