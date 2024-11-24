@@ -122,7 +122,7 @@ XXX
 
 <br />
 Thanks for reading!
-<br />
+<br /><br />
 __Disclaimer:__
 <br />
 The attack scenario was conducted with formal approval from the customer. This material is for informational purposes only, and should not be construed as legal advice or opinion. For actual legal advice, you should consult with professional legal services.
