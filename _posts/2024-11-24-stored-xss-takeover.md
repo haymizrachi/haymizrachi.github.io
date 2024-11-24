@@ -21,12 +21,14 @@ Let’s start with a brief explanation of what `HTTPOnly` protection is and how 
 <br /><br />
 While we're talking about Cookies, this mechanism is what authenticates a user and distinguishes each one based on their privileges in a web application. Cookies come with various security measures to enhance their safe usage and protect the end user.
 
-Some of the available attributes Cookies are:
+Some of the available Cookies attributes are:
 
 <p align="center">
   <img src="{{ site.url }}/images/setcookie_attrs.png" alt="setcookie_attrs" />
 </p>
 <p align="center"><a href="https://www.php.net/manual/en/function.setcookie.php">setcookie entry on PHP.net documentation</a></p>
+
+`HTTPOnly` by PHP.net: `When true the cookie will be made accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript`
 <br /><br />
 ### Conclusion
 
