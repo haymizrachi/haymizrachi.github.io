@@ -106,13 +106,15 @@ During the initial stage of discovering the web application, my Wappalyzer Chrom
 
 In the market today, there are a few popular Python frameworks for web development, such as Django and Flask.
 
-Digging into the HTML source code reveals the use of the Django framework, which is typically managed through the `/admin` path, a page titled 'Django Administration':
+Digging into the HTML source code reveals the use of the Django framework:
 
 <p align="center">
   <img src="{{ site.url }}/images/django_framework.png" alt="django_framework" />
 </p>
 <p align="center">Javascript source code exposed Django technology</p>
-<br />
+
+which is typically managed through the `/admin` path, a page titled 'Django Administration':
+
 <p align="center">
   <img src="{{ site.url }}/images/django_admin.png" alt="django_admin" />
 </p>
