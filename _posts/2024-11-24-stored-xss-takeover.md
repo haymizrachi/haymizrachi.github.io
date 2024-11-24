@@ -59,6 +59,7 @@ Unfortunately, this was not the case here due to CloudFlare protection implement
 <p align="center">
   <img src="{{ site.url }}/images/cf_headers.PNG" alt="cf_headers" />
 </p>
+<p align="center">CloudFlare was recognized by its known HTTP headers</a></p>
 
 <br /><br />
 ### Conclusion
