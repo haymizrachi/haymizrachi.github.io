@@ -43,6 +43,14 @@ We need to explore alternative pathways to exploit our XSS injection point:
 </p>
 
 After a basic explanation of what `HTTPOnly` is, let's dive deeper into our attack flow:
+
+Our engagement begins with a client who owns a social media platform featuring user-generated posts and a comments section for interactions from other users.
+<br />
+The main page of the application looks something like this:
+
+<p align="center">
+  <img src="{{ site.url }}/images/user_comments_section.png" alt="user_comments_section" />
+</p>
 <br /><br />
 ### Conclusion
 
