@@ -90,7 +90,8 @@ At this point, it's important to mention that we're dealing with a <ins>Stored X
 
 Let's move on..
 
-At this point, we have a verified injection point, but we don't want to stop here. We want to find a way to fully exploit the potential impact of this vulnerability.
+So, we have a verified injection point, but we don't want to stop here. We want to find a way to fully exploit the potential impact of this vulnerability.
+<br /><br />
 Stealing the administrator's cookie value is out (remember the `HTTPOnly` flag in place?)
 <br />
 So, I came to the realization that we could manipulate the HTML DOM directly instead.
