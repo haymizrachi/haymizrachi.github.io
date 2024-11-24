@@ -35,7 +35,7 @@ Some of the available Cookies attributes are:
 Oh, no!
 <br /><br />
 What does it mean when, despite our injected XSS payload being part of the HTML DOM, we still can't access the cookie value to impersonate the victim for an account takeover.
-<br />
+<br /><br />
 We need to explore alternative pathways to exploit our XSS injection point:
 
 <p align="center">
@@ -51,6 +51,7 @@ The main page of the application looks something like this:
 <p align="center">
   <img src="{{ site.url }}/images/user_comments_section.png" alt="user_comments_section" />
 </p>
+
 <br /><br />
 ### Conclusion
 
