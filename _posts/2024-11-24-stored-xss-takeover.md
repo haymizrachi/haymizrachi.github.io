@@ -62,7 +62,7 @@ Unfortunately, this was not the case here due to CloudFlare protection implement
 <p align="center">CloudFlare was recognized by its known HTTP headers</p>
 
 This will require us to work much harder to bypass this protection and inject our malicious XSS payload.
-<br />
+<br /><br />
 We can either try to peel off the CloudFlare Proxy protection and expose the underlying IP address of the web server using some Recon techniques, or find an HTML/JavaScript payload that will 'fool' CloudFlare into marking our payload as valid and running on the frontend.
 
 In this time, I was choose to along with the latter option between the two.
