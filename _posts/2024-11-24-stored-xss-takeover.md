@@ -88,6 +88,29 @@ And we received a callback request to our temporary webhook from the XSS!
 
 At this point, it's important to mention that we're dealing with a <ins>Stored XSS</ins>, as the comments are saved in the application database and are extracted every time a user visits the relevant post's comment section.
 
+Let's move on..
+
+At this point, we have a verified injection point, but we don't want to stop here. We want to find a way to fully exploit the potential impact of this vulnerability.
+Stealing the administrator's cookie value is out (remember the `HTTPOnly` flag in place?)
+<br />
+So, I came to the realization that we could manipulate the HTML DOM directly instead.
+
+Getting back to the Recon stage..
+
+During the initial stage of discovering the web application, my Wappalyzer Chrome plugin identified that the web app was written in Python:
+
+<p align="center">
+  <img src="{{ site.url }}/images/wappalyzer.PNG" alt="wappalyzer" />
+</p>
+
+In the market today, there are a few popular Python frameworks for web development, such as Django and Flask.
+
+<p align="center">
+  <img src="{{ site.url }}/images/django_framework.png" alt="django_framework" />
+</p>
+
+Digging into the HTML source code reveals the use of the Django framework, which is typically managed through the `/admin` path, a page titled 'Django Administration'.
+
 ### Conclusion
 
 XXX
