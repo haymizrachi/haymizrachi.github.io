@@ -118,7 +118,6 @@ which is typically managed through the `/admin` path, a page titled 'Django Admi
 <p align="center">
   <img src="{{ site.url }}/images/django_admin.png" alt="django_admin" />
 </p>
-<p align="center">Django management page</p>
 
 ### Conclusion
 
