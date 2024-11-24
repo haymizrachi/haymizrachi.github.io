@@ -78,14 +78,14 @@ Finally, I came up with a working payload that was reflected back into the DOM o
 <p align="center">
   <img src="{{ site.url }}/images/xss_cf_bypass.PNG" alt="xss_cf_bypass" />
 </p>
-
+<br />
 And we received a request back to our temporary webhook from the XSS!
 
 <p align="center">
   <img src="{{ site.url }}/images/webhook.png" alt="webhook" />
 </p>
 
-At this point, it's important to mention that we're dealing with a Stored XSS, as the comments are saved in the application database and are extracted every time a user visits the relevant post's comment section.
+At this point, it's important to mention that we're dealing with a <ins>Stored XSS</ins>, as the comments are saved in the application database and are extracted every time a user visits the relevant post's comment section.
 
 ### Conclusion
 
