@@ -29,8 +29,16 @@ Some of the available Cookies attributes are:
 <p align="center"><a href="https://www.php.net/manual/en/function.setcookie.php">setcookie entry on PHP.net documentation</a></p>
 
 `HTTPOnly` explanation by PHP.net:
-<br />
+<br /><br />
 `When true the cookie will be made accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript`
+<br /><br />
+Oh, no!
+<br />
+What does it mean when, despite our injected XSS payload being part of the HTML DOM, we still can't access the cookie value to impersonate the victim for an account takeover.
+<br />
+We need to explore alternative pathways to exploit our XSS injection point.
+
+After a basic explanation of what `HTTPOnly` is, let's dive deeper into our attack scenario:
 <br /><br />
 ### Conclusion
 
