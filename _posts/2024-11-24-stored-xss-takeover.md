@@ -78,6 +78,7 @@ Finally, I came up with a working payload that was reflected back into the DOM o
 <p align="center">
   <img src="{{ site.url }}/images/xss_cf_bypass.PNG" alt="xss_cf_bypass" />
 </p>
+<p align="center">An hidden UI payload using display none css attribute</p>
 <br />
 And we received a request back to our temporary webhook from the XSS!
 
@@ -93,7 +94,6 @@ XXX
 
 <br />
 Thanks for reading!
-
 <br />
 __Disclaimer:__
 <br />
