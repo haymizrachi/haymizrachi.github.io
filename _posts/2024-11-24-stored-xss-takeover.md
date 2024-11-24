@@ -53,7 +53,7 @@ The comments page of the application looks something like this:
 </p>
 
 The first thing that immediately comes to mind is injecting an XSS payload to see if it's reflected back (either temporarily or persistently) to the frontend of the application.
-<br />
+<br /><br />
 Unfortunately, this was not the case here due to CloudFlare protection implemented by the admin during the application deployment:
 
 <p align="center">
