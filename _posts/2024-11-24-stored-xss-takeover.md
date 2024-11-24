@@ -46,10 +46,16 @@ After a basic explanation of what `HTTPOnly` is, let's dive deeper into our atta
 
 Our engagement begins with a client who owns a social media platform featuring user-generated posts and a comments section for interactions from other users.
 <br /><br />
-The main page of the application looks something like this:
+The comments page of the application looks something like this:
 
 <p align="center">
   <img src="{{ site.url }}/images/user_comments_section.png" alt="user_comments_section" />
+</p>
+
+The first thing that immediately comes to mind is injecting an XSS payload to see if it's reflected back to the frontend of the application. Unfortunately, this was not the case here due to CloudFlare protection implemented by the admin during the application deployment:
+
+<p align="center">
+  <img src="{{ site.url }}/images/cf_headers.png" alt="cf_headers" />
 </p>
 
 <br /><br />
