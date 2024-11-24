@@ -26,7 +26,7 @@ Some of the attributes Cookeis might contains, which are:
 <p align="center">
   <img src="{{ site.url }}/images/setcookie_attrs.png" alt="setcookie_attrs" />
 </p>
-<p align="center">setcookie entry on PHP.net documentation</p>
+<p align="center"><a href="https://www.php.net/manual/en/function.setcookie.php">setcookie entry on PHP.net documentation</a></p>
 <br /><br />
 ### Conclusion
 
