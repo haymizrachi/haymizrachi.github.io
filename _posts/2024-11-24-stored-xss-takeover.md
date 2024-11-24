@@ -80,7 +80,7 @@ Finally, I came up with a working payload that was reflected back into the DOM o
 </p>
 <p align="center">An hidden UI payload using display none css attribute</p>
 <br />
-And we received a request back to our temporary webhook from the XSS!
+And we received a callback request to our temporary webhook from the XSS!
 
 <p align="center">
   <img src="{{ site.url }}/images/webhook.png" alt="webhook" />
