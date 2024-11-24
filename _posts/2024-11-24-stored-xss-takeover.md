@@ -52,7 +52,7 @@ The comments page of the application looks something like this:
   <img src="{{ site.url }}/images/user_comments_section.png" alt="user_comments_section" />
 </p>
 
-The first thing that immediately comes to mind is injecting an XSS payload to see if it's reflected back (either temporarily or persistently) to the frontend of the application.
+The first thing that immediately comes to mind is injecting a test XSS payload to see if it's reflected back (either temporarily or persistently) to the frontend of the application.
 <br /><br />
 Unfortunately, this was not the case here due to CloudFlare protection implemented by the admin during the application deployment:
 
@@ -61,7 +61,11 @@ Unfortunately, this was not the case here due to CloudFlare protection implement
 </p>
 <p align="center">CloudFlare was recognized by its known HTTP headers</p>
 
-This will require us to work much harder to bypass this protection and inject our malicious XSS payload. We can either peel off the CloudFlare frontend protection and expose the underlying IP address of the web server using some recon techniques, or find an HTML/JavaScript payload that will 'fool' CloudFlare into marking our payload as valid.
+This will require us to work much harder to bypass this protection and inject our malicious XSS payload.
+<br />
+We can either try to peel off the CloudFlare Proxy protection and expose the underlying IP address of the web server using some Recon techniques, or find an HTML/JavaScript payload that will 'fool' CloudFlare into marking our payload as valid and running on the frontend.
+
+In this time, I was choose to along with the latter option between the two.
 
 <br /><br />
 ### Conclusion
