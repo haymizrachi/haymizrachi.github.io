@@ -52,10 +52,10 @@ The comments page of the application looks something like this:
   <img src="{{ site.url }}/images/user_comments_section.png" alt="user_comments_section" />
 </p>
 
-The first thing that immediately comes to mind is injecting an XSS payload to see if it's reflected back to the frontend of the application. Unfortunately, this was not the case here due to CloudFlare protection implemented by the admin during the application deployment:
+The first thing that immediately comes to mind is injecting an XSS payload to see if it's reflected back (either temporarily or persistently) to the frontend of the application. Unfortunately, this was not the case here due to CloudFlare protection implemented by the admin during the application deployment:
 
 <p align="center">
-  <img src="{{ site.url }}/images/cf_headers.png" alt="cf_headers" />
+  <img src="{{ site.url }}/images/cf_headers.PNG" alt="cf_headers" />
 </p>
 
 <br /><br />
