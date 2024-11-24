@@ -112,7 +112,7 @@ Digging into the HTML source code reveals the use of the Django framework, which
   <img src="{{ site.url }}/images/django_framework.png" alt="django_framework" />
 </p>
 <p align="center">Javascript source code exposed Django technology</p>
-
+<br />
 <p align="center">
   <img src="{{ site.url }}/images/django_admin.png" alt="django_admin" />
 </p>
