@@ -82,7 +82,7 @@ Finally, I came up with a working payload that was reflected back into the DOM o
 And we received a request back to our temporary webhook from the XSS!
 
 <p align="center">
-  <img src="{{ site.url }}/images/webhook.PNG" alt="webhook" />
+  <img src="{{ site.url }}/images/webhook.png" alt="webhook" />
 </p>
 
 At this point, it's important to mention that we're dealing with a Stored XSS, as the comments are saved in the application database and are extracted every time a user visits the relevant post's comment section.
@@ -95,7 +95,9 @@ XXX
 Thanks for reading!
 
 <br />
-__Disclaimer:__ The attack scenario was conducted with formal approval from the customer. This material is for informational purposes only, and should not be construed as legal advice or opinion. For actual legal advice, you should consult with professional legal services.
+__Disclaimer:__
+<br />
+The attack scenario was conducted with formal approval from the customer. This material is for informational purposes only, and should not be construed as legal advice or opinion. For actual legal advice, you should consult with professional legal services.
 
 ---
 
