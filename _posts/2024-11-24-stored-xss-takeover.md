@@ -63,9 +63,21 @@ Unfortunately, this was not the case here due to CloudFlare protection implement
 
 This will require us to work much harder to bypass this protection and inject our malicious XSS payload.
 <br /><br />
-We can either try to peel off the CloudFlare Proxy protection and expose the underlying IP address of the web server using some Recon techniques, or find an HTML / JavaScript payload that will 'fool' CloudFlare into marking our payload as valid and be running on the frontend.
+We can either try to peel off the CloudFlare Proxy protection and expose the underlying IP address of the web server using some Recon techniques, or find an HTML / JavaScript payload that will 'fool' CloudFlare into marking our payload as valid to be running on the frontend.
 
-In this time, I was choose to along with the latter option between the two.
+This time, I chose to go with the latter option of the two.
+<br />
+__Spoiler Alert__: It's going to hurt...
+
+After several attempts and trying to inject classic XSS payloads from the <a href="https://github.com/Proviesec/xss-payload-list">xss-payload-list</a>, all of the XSS payloads I inserted were filtered out by the CloudFlare proxy and marked as non-executable.
+
+At this point, I realized I needed to try harder and find a dedicated payload __specifically__ designed to bypass CloudFlare protection.
+
+Finally, I came up with a working payload that was reflected back into the DOM of the HTML, which was:
+
+<p align="center">
+  <img src="{{ site.url }}/images/xss_cf_bypass.PNG" alt="xss_cf_bypass" />
+</p>
 
 <br /><br />
 ### Conclusion
