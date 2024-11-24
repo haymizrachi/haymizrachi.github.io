@@ -30,15 +30,15 @@ Some of the available Cookies attributes are:
 
 `HTTPOnly` explanation by PHP.net:
 <br /><br />
-`When true the cookie will be made accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript`
+`When true the cookie will be made accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript.`
 <br /><br />
 Oh, no!
-<br />
+<br /><br />
 What does it mean when, despite our injected XSS payload being part of the HTML DOM, we still can't access the cookie value to impersonate the victim for an account takeover.
 <br />
 We need to explore alternative pathways to exploit our XSS injection point.
 
-After a basic explanation of what `HTTPOnly` is, let's dive deeper into our attack scenario:
+After a basic explanation of what `HTTPOnly` is, let's dive deeper into our attack flow:
 <br /><br />
 ### Conclusion
 
