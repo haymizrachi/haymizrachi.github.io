@@ -66,7 +66,7 @@ This will require us to work much harder to bypass this protection and inject ou
 We can either try to peel off the CloudFlare Proxy protection and expose the underlying IP address of the web server using some Recon techniques, or find an HTML / JavaScript payload that will 'fool' CloudFlare into marking our payload as valid to be running on the frontend.
 
 This time, I chose to go with the latter option of the two.
-<br />
+<br /><br />
 __Spoiler Alert__: It's going to hurt...
 
 After several attempts and trying to inject classic XSS payloads from the <a href="https://github.com/Proviesec/xss-payload-list">xss-payload-list</a>, all of the XSS payloads I inserted were filtered out by the CloudFlare proxy and marked as non-executable.
@@ -79,7 +79,14 @@ Finally, I came up with a working payload that was reflected back into the DOM o
   <img src="{{ site.url }}/images/xss_cf_bypass.PNG" alt="xss_cf_bypass" />
 </p>
 
-<br /><br />
+And we received a request back to our temporary webhook from the XSS!
+
+<p align="center">
+  <img src="{{ site.url }}/images/webhook.PNG" alt="webhook" />
+</p>
+
+At this point, it's important to mention that we're dealing with a Stored XSS, as the comments are saved in the application database and are extracted every time a user visits the relevant post's comment section.
+
 ### Conclusion
 
 XXX
