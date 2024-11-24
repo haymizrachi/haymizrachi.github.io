@@ -28,7 +28,9 @@ Some of the available Cookies attributes are:
 </p>
 <p align="center"><a href="https://www.php.net/manual/en/function.setcookie.php">setcookie entry on PHP.net documentation</a></p>
 
-`HTTPOnly` by PHP.net: `When true the cookie will be made accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript`
+`HTTPOnly` explanation by PHP.net:
+<br />
+`When true the cookie will be made accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript`
 <br /><br />
 ### Conclusion
 
