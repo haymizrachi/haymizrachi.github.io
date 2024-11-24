@@ -19,9 +19,9 @@ Stay Tuned!
 <br />
 Let’s start with a brief explanation of what `HTTPOnly` protection is and how it helps developers prevent attackers from stealing account cookies.
 <br /><br />
-While we're talking about Cookies, this mechanism is what authenticates a user and distinguishes each one based on their privileges in a web application. Cookies come with various security measures to enhance their safe usage and ensure secure transmission between the frontend and backend server.
+While we're talking about Cookies, this mechanism is what authenticates a user and distinguishes each one based on their privileges in a web application. Cookies come with various security measures to enhance their safe usage and protect the end user.
 
-Some of the attributes Cookies might contains, which are:
+Some of the available attributes Cookies are:
 
 <p align="center">
   <img src="{{ site.url }}/images/setcookie_attrs.png" alt="setcookie_attrs" />
