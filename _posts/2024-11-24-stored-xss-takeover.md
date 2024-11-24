@@ -99,7 +99,7 @@ So, I came to the realization that we could manipulate the HTML DOM directly ins
 Getting back to the Recon stage..
 
 During the initial stage of discovering the web application, my Wappalyzer Chrome plugin identified that the web app was written in Python:
-<br />
+<br /><br />
 <p align="center">
   <img src="{{ site.url }}/images/wappalyzer.PNG" alt="wappalyzer" />
 </p>
@@ -110,6 +110,10 @@ Digging into the HTML source code reveals the use of the Django framework, which
 
 <p align="center">
   <img src="{{ site.url }}/images/django_framework.png" alt="django_framework" />
+</p>
+
+<p align="center">
+  <img src="{{ site.url }}/images/django_admin.png" alt="django_admin" />
 </p>
 
 ### Conclusion
