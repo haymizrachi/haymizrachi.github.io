@@ -36,7 +36,11 @@ Oh, no!
 <br /><br />
 What does it mean when, despite our injected XSS payload being part of the HTML DOM, we still can't access the cookie value to impersonate the victim for an account takeover.
 <br />
-We need to explore alternative pathways to exploit our XSS injection point.
+We need to explore alternative pathways to exploit our XSS injection point:
+
+<p align="center">
+  <img src="{{ site.url }}/images/more_than_xss.jpg" alt="more_than_xss" />
+</p>
 
 After a basic explanation of what `HTTPOnly` is, let's dive deeper into our attack flow:
 <br /><br />
