@@ -108,18 +108,26 @@ During the initial stage of discovering the web application, my Wappalyzer Chrom
 
 In the market today, there are a few popular Python frameworks for web development, such as Django and Flask.
 
-Digging into the HTML source code reveals the use of the Django framework:
+Digging into the HTML source code reveals the use of the Django framework in this case:
 
 <p align="center">
   <img src="{{ site.url }}/images/django_framework.png" alt="django_framework" />
 </p>
 <p align="center">Javascript source code exposed Django technology</p>
 
-which is typically managed through the `/admin` path, a page titled 'Django Administration':
+This framework is typically managed through the `/admin` path, with a page titled 'Django Administration':
 
 <p align="center">
   <img src="{{ site.url }}/images/django_admin.png" alt="django_admin" />
 </p>
+
+Of course at this point I didn't have any administrative privileges and got rejected by a message of unauthorized access when attempting to access the page using my logged-on cookie:
+
+<p align="center">
+  <img src="{{ site.url }}/images/django_admin_rejected.png" alt="django_admin_rejected" />
+</p>
+
+An idea that we can abuse, is to send a behind XHR / AJAX requests to `/admin` path in behalf of the authenticated user (particularly with admin privileges) and steal his HTML frontend page of the Django Admin page, and from that point to grab his CSRF nonce token and send GET / POST requests (we are on the same domain origin so any SOP is not broke in this scenario) to change, delete and alter including reset passwords of clients data 😈
 
 ### Conclusion
 
