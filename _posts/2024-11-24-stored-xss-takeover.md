@@ -12,6 +12,8 @@ In this post, I'll walk you through a recent real-world engagement where I explo
 protection by `HTTPOnly` flag. I'll also demonstrate how I able to bypass this security measure to take over the administrative account.
 <br /><br />
 Stay Tuned!
+<br /><br />
+__A disclaimer before we begin:__ The attack scenario was conducted with the formal approval of the customer.
 
 <p align="center">
   <img src="{{ site.url }}/images/cookie_meme.jfif" alt="cookie_meme" />
@@ -126,9 +128,7 @@ XXX
 <br />
 Thanks for reading!
 <br /><br />
-__Disclaimer:__
-<br />
-The attack scenario was conducted with formal approval from the customer. This material is for informational purposes only, and should not be construed as legal advice or opinion. For actual legal advice, you should consult with professional legal services.
+__Disclaimer:__ This material is for informational purposes only, and should not be construed as legal advice or opinion. For actual legal advice, you should consult with professional legal services.
 
 ---
 
