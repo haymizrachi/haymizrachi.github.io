@@ -135,7 +135,7 @@ This would allow us to steal the HTML content of the Django Admin page, extract 
 <br />
 Since we're operating within the same domain origin, no any Same-origin policy violations occur in this scenario, enabling us to modify, delete, and alter client data, including resetting their personal passwords 😈
 
-No phishing campaign or account referrals to my XSS page were needed since the comment page is publicly accessible to everyone!
+And the jackpot is that <ins>no phishing campaign or any account referrals</ins> to my XSS page were needed since the comment page is publicly accessible to everyone!
 
 ### Conclusion
 
