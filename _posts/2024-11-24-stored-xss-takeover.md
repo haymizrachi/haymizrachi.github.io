@@ -157,7 +157,9 @@ And finally, the rendered HTML page of the crown jewels:
 
 ### Conclusion
 
-XXX
+This article demonstrated some unconventional uses of a simple XSS attack, even with strong protections like `HTTPOnly` in place.
+
+Never underestimate even a medium-severity XSS attack, especially in today’s fast-paced, technology-driven world. Your imagination can take you to a new heights - use it wisely!
 
 <br />
 Thanks for reading!
