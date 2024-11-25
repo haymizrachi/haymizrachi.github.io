@@ -137,16 +137,22 @@ Since we're operating within the same domain origin, no any Same-origin policy v
 
 And the jackpot is that <ins>no phishing campaign or any account referrals</ins> to my XSS page were needed since the comment page is publicly accessible to everyone!
 
-The final payload attack used a double JavaScript `fetch` function to first retrieve the `/admin` page contents, and then send the response back to my webhook instance.
+The final payload attack used a double JavaScript `fetch` function to first retrieve the `/admin` page contents, and then send the response back to my webhook instance:
 
 <p align="center">
   <img src="{{ site.url }}/images/fetch_xss_payload.jfif" alt="fetch_xss_payload" />
 </p>
-
+<br />
 The administrative Django content was captured under the `Raw Content` section as below:
 
 <p align="center">
   <img src="{{ site.url }}/images/webhook_django_content.png" alt="webhook_django_content" />
+</p>
+
+And finally, the rendered HTML page of the crown jewels:
+
+<p align="center">
+  <img src="{{ site.url }}/images/final_django_admin_page.png" alt="final_django_admin_page" />
 </p>
 
 ### Conclusion
