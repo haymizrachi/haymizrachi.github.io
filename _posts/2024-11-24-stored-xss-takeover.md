@@ -128,7 +128,7 @@ Of course at this point I didn't have any administrative privileges and got reje
 </p>
 
 So, a brilliant idea came into my mind! We can send behind-the-scenes XHR/AJAX requests to the `/admin` path on behalf of the authenticated user (particularly one with admin privileges).
-<br />
+<br /><br />
 This would allow us to steal the HTML content of the Django Admin page, extract the CSRF nonce token, and then send GET/POST requests.
 <br />
 Since we're operating within the same domain origin, no any Same-origin policy violations occur in this scenario, enabling us to modify, delete, and alter client data, including resetting their personal passwords 😈
