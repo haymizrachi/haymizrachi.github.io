@@ -127,13 +127,15 @@ Of course at this point I didn't have any administrative privileges and got reje
   <img src="{{ site.url }}/images/django_admin_rejected.png" alt="django_admin_rejected" />
 </p>
 
+Hold your breath... the best part is yet to come..
+<br /><br />
 So, a brilliant idea came into my mind! We can send behind-the-scenes XHR/AJAX requests to the `/admin` path on behalf of the authenticated user (particularly one with admin privileges).
 <br /><br />
 This would allow us to steal the HTML content of the Django Admin page, extract the CSRF nonce token, and then send GET/POST requests.
 <br />
 Since we're operating within the same domain origin, no any Same-origin policy violations occur in this scenario, enabling us to modify, delete, and alter client data, including resetting their personal passwords 😈
 
-No phishing campaign nor any needed referer of accounts to my XSS page due to a publicly comment page open to anyone!
+No phishing campaign or account referrals to my XSS page were needed since the comment page is publicly accessible to everyone!
 
 ### Conclusion
 
