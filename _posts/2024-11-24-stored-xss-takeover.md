@@ -121,7 +121,7 @@ This framework is typically managed through the `/admin` path, with a page title
   <img src="{{ site.url }}/images/django_admin.png" alt="django_admin" />
 </p>
 
-Of course at this point I didn't have any administrative privileges and got rejected by a message of unauthorized access when attempting to access the page using my logged-on cookie:
+Of course at this point I didn't have any administrative privileges and got rejected by a message of unauthorized access when attempting to access the page using my already logged-on cookie:
 
 <p align="center">
   <img src="{{ site.url }}/images/django_admin_rejected.png" alt="django_admin_rejected" />
@@ -129,15 +129,15 @@ Of course at this point I didn't have any administrative privileges and got reje
 
 __Hold your breath... the best part is yet to come..__
 <br /><br />
-So, a brilliant idea came into my mind! We can send behind-the-scenes XHR/AJAX requests to the `/admin` path on behalf of the authenticated user (particularly one with admin privileges).
+So, a brilliant idea came into my mind! We can send behind-the-scenes XHR/AJAX requests to the `/admin` path on behalf of the authenticated user (one with admin privileges of course).
 <br /><br />
 This would allow us to steal the HTML content of the Django Admin page, extract the CSRF nonce token, and then send GET/POST requests.
 <br />
-Since we're operating within the same domain origin, no any Same-origin policy violations occur in this scenario, enabling us to modify, delete, and alter client data, including resetting their personal passwords 😈
+Since we're operating within the same domain origin, no any Same-origin policy violations occur in this scenario for the back response content, enabling us to modify, delete, and alter client data, including resetting their personal passwords 😈
 
 And the jackpot is that <ins>no phishing campaign or any account referrals</ins> to my XSS page were needed since the comment page is publicly accessible to everyone!
 
-The final payload attack used a double JavaScript `fetch` function to first retrieve the `/admin` page contents, and then send the response back to my webhook instance:
+The final payload attack used a double JavaScript `fetch` functions call to first retrieve the `/admin` page contents, and then send the response back to my webhook instance:
 
 <p align="center">
   <img src="{{ site.url }}/images/fetch_xss_payload.jfif" alt="fetch_xss_payload" />
@@ -149,7 +149,7 @@ The administrative Django content was captured under the `Raw Content` section a
   <img src="{{ site.url }}/images/webhook_django_content.png" alt="webhook_django_content" />
 </p>
 
-And finally, the rendered HTML page of the crown jewels:
+And finally, the rendered HTML page of the crown jewels🥳
 
 <p align="center">
   <img src="{{ site.url }}/images/final_django_admin_page.png" alt="final_django_admin_page" />
