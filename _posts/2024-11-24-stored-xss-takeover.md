@@ -34,7 +34,7 @@ Some of the available Cookies attributes are:
 <br /><br />
 `When true the cookie will be made accessible only through the HTTP protocol. This means that the cookie won't be accessible by scripting languages, such as JavaScript.`
 <br /><br />
-Oh, no!
+__Oh, no!__
 <br /><br />
 What does it mean when, despite our injected XSS payload being part of the HTML DOM, we still can't access the cookie value to impersonate the victim for an account takeover.
 <br /><br />
