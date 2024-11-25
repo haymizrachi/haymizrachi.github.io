@@ -144,7 +144,7 @@ The final payload attack used a double JavaScript `fetch` functions call to firs
 </p>
 <br />
 __Bingo!__
-</br />
+<br />
 The administrative Django content was captured under the `Raw Content` section as below:
 
 <p align="center">
