@@ -143,7 +143,7 @@ The final payload attack used a double JavaScript `fetch` functions call to firs
   <img src="{{ site.url }}/images/fetch_xss_payload.jfif" alt="fetch_xss_payload" />
 </p>
 __Bingo!__
-<br />
+<br /><br />
 The administrative Django content was captured under the `Raw Content` section as below:
 
 <p align="center">
