@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      From XSS Vulnerability to Full Admin Access
-date: 2024-11-24 12:00
+date: 2024-11-25 12:00
 summary:    A Real-World Case Study, How I Took Over an Entire Application Using a Classic XSS Vulnerability.
 categories: security
 ---
