@@ -149,7 +149,7 @@ The administrative Django content was captured under the `Raw Content` section a
   <img src="{{ site.url }}/images/webhook_django_content.png" alt="webhook_django_content" />
 </p>
 
-And finally, the rendered HTML page of the crown jewels🥳
+And finally, the rendered HTML page of the crown jewels 🥳
 
 <p align="center">
   <img src="{{ site.url }}/images/final_django_admin_page.png" alt="final_django_admin_page" />
