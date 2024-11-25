@@ -154,7 +154,7 @@ And finally, the rendered HTML page of the crown jewels:
 <p align="center">
   <img src="{{ site.url }}/images/final_django_admin_page.png" alt="final_django_admin_page" />
 </p>
-
+<br />
 ### Conclusion
 
 This article demonstrated some unconventional uses of a simple XSS attack, even with strong protections like `HTTPOnly` in place.
