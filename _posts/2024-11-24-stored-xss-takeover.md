@@ -127,7 +127,7 @@ Of course at this point I didn't have any administrative privileges and got reje
   <img src="{{ site.url }}/images/django_admin_rejected.png" alt="django_admin_rejected" />
 </p>
 
-Hold your breath... the best part is yet to come..
+__Hold your breath... the best part is yet to come..__
 <br /><br />
 So, a brilliant idea came into my mind! We can send behind-the-scenes XHR/AJAX requests to the `/admin` path on behalf of the authenticated user (particularly one with admin privileges).
 <br /><br />
