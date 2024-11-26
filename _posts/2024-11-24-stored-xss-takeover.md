@@ -90,7 +90,7 @@ And we received a callback request to our temporary webhook from the XSS!
 
 __Note:__ it's important to mention that we're dealing with a <ins>Stored XSS</ins>, as the comments are saved in the application database and are extracted every time a user visits the relevant post's comment section.
 
-Let's move on..
+Let's continue on..
 
 At this point, we have a verified injection point, but we don't want to stop here. We want to find a way to fully exploit the potential impact of this vulnerability.
 <br /><br />
