@@ -11,6 +11,7 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
+[CVE-2024-12309](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/rate-my-post/rate-my-post-star-rating-plugin-by-feedbackwp-424-unauthenticated-voting-on-scheduled-posts)  | 	Unauthenticated Insecure Direct Object Reference | Medium (5.3)      | Star Rating Plugin by FeedbackWP      | 12/12/2024     |
 [CVE-2023-3453](https://www.cisa.gov/news-events/ics-advisories/icsa-23-208-01)  | 	INSECURE DEFAULT INITIALIZATION OF RESOURCE | High (7.1)      | ETIC Telecom Remote Access Server (RAS)      | 7/27/2023      |
 | [CVE-2022-3703](https://www.cisa.gov/news-events/ics-advisories/icsa-22-307-01)  | 	INSUFFICIENT VERIFICATION OF DATA AUTHENTICITY | High (7.6)      | ETIC Telecom Remote Access Server (RAS)      | 7/27/2023      |
 |[CVE-2022-41607](https://www.cisa.gov/news-events/ics-advisories/icsa-22-307-01) | 	IMPROPER LIMITATION OF A PATHNAME TO A RESTRICTED DIRECTORY ('PATH TRAVERSAL') | Medium (6.2)      | ETIC Telecom Remote Access Server (RAS)      | 7/27/2023      |
