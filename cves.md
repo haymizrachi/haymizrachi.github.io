@@ -11,7 +11,7 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
-[CVE-2025-1971](https://google.com)  | 	N/A | N/A      | N/A      | N/A     |
+[CVE-2025-1971](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/users-customers-import-export-for-wp-woocommerce/export-and-import-users-and-customers-262-directory-traversal-to-authenticated-administrator-limited-arbitrary-file-read-via-download-file-function)  | 	Directory Traversal to Limited Arbitrary File Read | Medium (4.9)      | Export and Import Users and Customers      | 3/21/2025     |
 [CVE-2025-1970](https://google.com)  | 	N/A | N/A      | N/A      | N/A     |
 [CVE-2025-1973](https://google.com)  | 	N/A | N/A      | N/A      | N/A     |
 [CVE-2025-1972](https://google.com)  | 	N/A | N/A      | N/A      | N/A     |
