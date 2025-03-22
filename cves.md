@@ -5,7 +5,7 @@ permalink: /cves/
 tags: cves
 ---
 
-Over the years, I've discovered numerous CVE's through my security research projects which some of them considered as a Zero-Day vulnerabilities.
+Over the years, my security research projects have led to the discovery of a total of 63 CVE's, all of which were classified as Zero-Day vulnerabilities:
 
 For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
 
