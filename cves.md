@@ -82,12 +82,16 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 ## Media Publications
 
-1. [Critical Flaws Discovered in Popular Industrial Remote Access Systems](https://thehackernews.com/2020/10/industrial-remote-access.html)
+- [Critical Flaws Discovered in Popular Industrial Remote Access Systems](https://thehackernews.com/2020/10/industrial-remote-access.html)
 
-2. [InHand Router Flaws Could Expose Many Industrial Companies to Remote Attacks](https://www.securityweek.com/inhand-router-flaws-could-expose-many-industrial-companies-remote-attacks)
+- [InHand Router Flaws Could Expose Many Industrial Companies to Remote Attacks](https://www.securityweek.com/inhand-router-flaws-could-expose-many-industrial-companies-remote-attacks)
 
-3. [CISA Warns of Critical Vulnerabilities in 3 Industrial Control System Software](https://thehackernews.com/2022/11/cisa-warns-of-critical-vulnerabilities.html)
+- [CISA Warns of Critical Vulnerabilities in 3 Industrial Control System Software](https://thehackernews.com/2022/11/cisa-warns-of-critical-vulnerabilities.html)
 
-4. [Security gaps found in MBConnect’s industrial remote access offering](https://industrialcyber.co/news/security-gaps-found-in-mbconnects-industrial-remote-access-offering/)
+- [Security gaps found in MBConnect’s industrial remote access offering](https://industrialcyber.co/news/security-gaps-found-in-mbconnects-industrial-remote-access-offering/)
 
-5. [FLAWS IN LEADING INDUSTRIAL REMOTE ACCESS SYSTEMS ALLOW DISRUPTION OF OPERATIONS](https://securityaffairs.com/108991/hacking/industrial-remote-access-systems-flaws.html)
+- [FLAWS IN LEADING INDUSTRIAL REMOTE ACCESS SYSTEMS ALLOW DISRUPTION OF OPERATIONS](https://securityaffairs.com/108991/hacking/industrial-remote-access-systems-flaws.html)
+
+## Bug Bounty Program Profiles
+
+- [Wordfence Bug Bounty - Researcher Profile](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/haymiz) - Explore my contributions to the Wordfence Bug Bounty program, highlighting my discoveries and insights.
