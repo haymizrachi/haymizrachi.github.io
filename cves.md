@@ -94,4 +94,4 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 ## Bug Bounty Program Profiles
 
-- [Wordfence Bug Bounty - Researcher Profile](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/haymiz) - Explore my contributions to the Wordfence Bug Bounty program, highlighting my discoveries and insights.
+- [Wordfence Bug Bounty - Researcher Profile](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/haymiz) - As of March 2025, I am ranked 225th on the All-Time Leaderboard with 13 All-Time Discoveries.
