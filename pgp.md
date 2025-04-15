@@ -14,8 +14,6 @@ This key can also be used to verify signed messages or files I publish.
 **Created:** April 2025  
 **Expires:** Never
 
-Reach me at: [me@haymiz.dev](mailto:me@haymiz.dev)
-
 📥 [Download My Public Key](https://haymiz.dev/pgp/publickey.asc)
 
 Alternatively, you can find my verified identity on [Keybase](https://keybase.io/haymizrachi).
