@@ -10,6 +10,13 @@ I’m here to break things and uncover life’s uncertainties.
 
 Reach me at: me@haymiz.dev
 
+<div class="py2 post-footer">
+  <img src="/images/me.png" alt="Hay Mizrachi" width="100" style="border-radius: 50%;" />
+  <p>
+    Follow me on <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a>
+  </p>
+</div>
+
 ## How to Navigate
 
 - You can find my latest posts on the homepage.
