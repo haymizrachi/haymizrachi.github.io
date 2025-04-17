@@ -132,3 +132,20 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 [^1]: [OWASP crAPI](https://github.com/OWASP/crAPI)
 [^2]: [Writing API exploits in Python by DANA Epp](https://danaepp.com/writing-api-exploits-in-python)
 [^4]: [Postman Flows Playlist by Postman](https://youtube.com/playlist?list=PLM-7VG-sgbtCWIWHJSXdJPbahXb_QWWEC&si=kidlwrwYo0boUEK5)
+
+<script src="https://giscus.app/client.js"
+        data-repo="haymizrachi/haymizrachi.github.io"
+        data-repo-id="R_kgDOLLvfpA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLLvfpM4CpMZa"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+💡 Prefer not to sign in here? You can comment directly on the related GitHub discussion.

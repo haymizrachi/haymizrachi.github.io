@@ -200,3 +200,20 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 [^1]: [PlantUML Online Editor](https://www.plantuml.com/)
 [^2]: [Online PHP Unserializer](https://www.unserialize.com/)
+
+<script src="https://giscus.app/client.js"
+        data-repo="haymizrachi/haymizrachi.github.io"
+        data-repo-id="R_kgDOLLvfpA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLLvfpM4CpMZa"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+💡 Prefer not to sign in here? You can comment directly on the related GitHub discussion.
