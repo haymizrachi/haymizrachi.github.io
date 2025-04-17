@@ -200,6 +200,7 @@ __Disclaimer:__ This material is for informational purposes only, and should not
 
 [^1]: [PlantUML Online Editor](https://www.plantuml.com/)
 [^2]: [Online PHP Unserializer](https://www.unserialize.com/)
+
 <!-- Giscus Comment Section -->
 <script src="https://giscus.app/client.js"
         data-repo="haymizrachi/haymizrachi.github.io"
@@ -210,7 +211,7 @@ __Disclaimer:__ This material is for informational purposes only, and should not
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
-        data-input-position="top"
+        data-input-position="bottom"
         data-theme="preferred_color_scheme"
         data-lang="en"
         crossorigin="anonymous"
