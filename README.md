@@ -32,7 +32,7 @@ If you'd like to contact me securely, please use my PGP public key to encrypt yo
 - **Created:** April 2025  
 - **Expires:** Never  
 
-📥 [Download My Public Key](https://haymiz.dev/pgp.asc)  
+📥 [Download My Public Key](https://haymiz.dev/pgp/publickey.asc)  
 🔑 Also available via [Keybase](https://keybase.io/haymiz)
 
 ---
