@@ -21,11 +21,19 @@ Reach me at: me@haymiz.dev
 
 - You can find my latest posts on the homepage.
 - Each post includes ideas, tutorials, or updates on my personal projects.
-- Check out the archives or use the search bar (if implemented) to explore older content.
+- Check out the archives to explore older content.
 
-## Custom Domain
+## GPG Public Key for Secure Communication
 
-I’ve set up a custom domain for my blog: [haymiz.dev](https://haymiz.dev). This gives my blog a more professional and personalized web address.
+If you'd like to contact me securely, please use my PGP public key to encrypt your message. You can also use this key to verify signed messages or files I publish.
+
+- **PGP Fingerprint:** `FF8F 7A9A 4A51 A9D7 DD65 072E 3954 01BA C57D 0D3D`  
+- **Key ID:** `0x395401BAC57D0D3D`  
+- **Created:** April 2025  
+- **Expires:** Never  
+
+📥 [Download My Public Key](https://haymiz.dev/pgp.asc)  
+🔑 Also available via [Keybase](https://keybase.io/haymiz)
 
 ---
 Thanks for visiting my blog!
