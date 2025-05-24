@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Insecure CORS Configuration in GoFiber Framework
-date: 2025-05-24 12:00
+date: 2025-05-23 12:00
 summary:    Discover how Go Fiber's CORS middleware allows dangerous wildcard configurations, exposing Go applications to credential theft and unauthorized data access.
 categories: security
 ---
