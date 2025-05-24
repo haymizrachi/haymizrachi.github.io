@@ -1,15 +1,15 @@
 ---
 layout:     post
-title:      Insecure CORS Configuration in GoFiber Framework
+title:      Insecure CORS Configuration in Fiber Middleware Framework
 date: 2025-05-23 12:00
 summary:    Discover how Go Fiber's CORS middleware allows dangerous wildcard configurations, exposing Go applications to credential theft and unauthorized data access.
 categories: security
 ---
 
-# 🚨 CRITICAL SECURITY ADVISORY
-## Insecure CORS Configuration in GoFiber Framework
+## 🚨 CRITICAL SECURITY ADVISORY
+### Insecure CORS Configuration in GoFiber Framework
 
-**CVE ID:** <a href="https://github.com/gofiber/fiber/security/advisories/GHSA-fmg4-x8pw-hjhg">GHSA-fmg4-x8pw-hjhg</a>
+**CVE ID:** <a href="https://github.com/gofiber/fiber/security/advisories/GHSA-fmg4-x8pw-hjhg">GHSA-fmg4-x8pw-hjhg</a>  
 **Severity:** CRITICAL  
 **Published:** February 21, 2024  
 **Affected Package:** github.com/gofiber/fiber/v2
@@ -95,9 +95,6 @@ app.Use(cors.New(cors.Config{
 - [GitHub Security Advisory](https://github.com/advisories/GHSA-fmg4-x8pw-hjhg)
 
 ---
-
-**📞 SUPPORT:** For questions about this vulnerability, consult the GoFiber documentation or security community.  
-**⏰ ACTION DEADLINE:** Update immediately - this is a critical security issue affecting user data protection.
 
 Thanks for reading!
 <br /><br />
