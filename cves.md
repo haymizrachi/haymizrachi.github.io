@@ -11,7 +11,7 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
-[CVE-2025-62595](https://github.com/koajs/koa/security/advisories/GHSA-g8mr-fgfg-5qpc)  | 	Open Redirect via Trailing Double-Slash (//) in Koa back Redirect Logic | Medium (4.3)      | Koa.js Framework      | 10/21/2025     |
+[CVE-2025-62595](https://github.com/koajs/koa/security/advisories/GHSA-g8mr-fgfg-5qpc)<br />[GHSA-g8mr-fgfg-5qpc](https://github.com/koajs/koa/security/advisories/GHSA-g8mr-fgfg-5qpc) | 	Open Redirect via Trailing Double-Slash (//) in Koa back Redirect Logic | Medium (4.3)      | Koa.js Framework      | 10/21/2025     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 6/30/2025     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 2/28/2025     |
 [CVE-2025-1913](https://www.wordfence.com/threat-intel/vulnerabilities/wordpress-plugins/product-import-export-for-woo/product-import-export-for-woocommerce-250-authenticated-admin-php-object-injection-via-form-data-parameter)  | 	Authenticated (Admin+) PHP Object Injection | High (7.2)      | Product Import Export for WooCommerce By WebToffee      | 3/25/2025     |
@@ -99,4 +99,5 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 
 - [Wordfence Bug Bounty - Researcher Profile](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/haymiz) - As of March 2025, I am ranked 225th on the All-Time Leaderboard with 13 All-Time Discoveries.
+
 
