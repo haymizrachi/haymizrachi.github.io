@@ -5,7 +5,7 @@ permalink: /cves/
 tags: cves
 ---
 
-Over the years, my security research projects have led to the discovery of a total of 68 CVE's, all of which were classified as Zero-Day vulnerabilities.
+Over the years, my security research has led to the discovery and responsible disclosure of more than 70 Zero-Day vulnerabilities, all officially classified as CVEs.
 
 For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
 
@@ -95,5 +95,6 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 - [FLAWS IN LEADING INDUSTRIAL REMOTE ACCESS SYSTEMS ALLOW DISRUPTION OF OPERATIONS](https://securityaffairs.com/108991/hacking/industrial-remote-access-systems-flaws.html)
 
 ## Bug Bounty Program Profiles
+
 
 - [Wordfence Bug Bounty - Researcher Profile](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/haymiz) - As of March 2025, I am ranked 225th on the All-Time Leaderboard with 13 All-Time Discoveries.
