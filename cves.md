@@ -11,6 +11,7 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
+| [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	This time, it involved a vulnerability case that ultimately resulted in identifying a remote command execution vulnerability in the product. | Important (High)      | Microsoft Online Services Acknowledgment      | 11/30/2025     |
 [CVE-2025-62595](https://github.com/koajs/koa/security/advisories/GHSA-g8mr-fgfg-5qpc)<br /><br />[GHSA-g8mr-fgfg-5qpc](https://github.com/koajs/koa/security/advisories/GHSA-g8mr-fgfg-5qpc) | 	Open Redirect via Trailing Double-Slash (//) in Koa back Redirect Logic | Medium (4.3)      | Koa.js Framework      | 10/21/2025     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 6/30/2025     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 2/28/2025     |
@@ -99,6 +100,7 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 
 - [Wordfence Bug Bounty - Researcher Profile](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/haymiz) - As of March 2025, I am ranked 225th on the All-Time Leaderboard with 13 All-Time Discoveries.
+
 
 
 
