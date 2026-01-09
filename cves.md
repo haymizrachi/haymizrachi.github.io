@@ -100,7 +100,9 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 
 - [VDP Hall of Fame - Israel National Cyber Directorate](https://www.gov.il/he/pages/vdp_chart) - As of December 2025, I am ranked #99 with a final score of 163 points, based on validated vulnerability reports submitted as part of Israel’s national Vulnerability Disclosure Program.
+
 - [Wordfence Bug Bounty - Researcher Profile](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/haymiz) - As of March 2025, I am ranked 225th on the All-Time Leaderboard with 13 All-Time Discoveries.
+
 
 
 
