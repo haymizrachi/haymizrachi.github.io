@@ -11,6 +11,10 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
+| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	To Be Determined (TBD) | To Be Determined (TBD)      | 	To Be Determined (TBD)       | XXX     |
+| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	To Be Determined (TBD) | To Be Determined (TBD)      | 	To Be Determined (TBD)       | XXX     |
+| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	To Be Determined (TBD) | To Be Determined (TBD)      | 	To Be Determined (TBD)       | XXX     |
+| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	To Be Determined (TBD) | To Be Determined (TBD)      | 	To Be Determined (TBD)       | XXX     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 1/31/2026     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 12/31/2025     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	This time, it involved a vulnerability case that ultimately resulted in identifying a remote command execution vulnerability in the product | Important (High)      | Microsoft Online Services Acknowledgment      | 11/30/2025     |
