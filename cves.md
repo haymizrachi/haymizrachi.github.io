@@ -5,12 +5,19 @@ permalink: /cves/
 tags: cves
 ---
 
-Over the years, my security research has led to the discovery and responsible disclosure of more than 70 Zero-Day vulnerabilities, all officially classified as CVEs.
+Over the years, my security research has led to the discovery and responsible disclosure of more than 70+ Zero-Day vulnerabilities, all officially classified as CVEs.
 
 For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizrachi">LinkedIn</a> profile.
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
+| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	To Be Determined (TBD) | To Be Determined (TBD)      | 	To Be Determined (TBD)       | To Be Determined (TBD)     |
+| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	To Be Determined (TBD) | To Be Determined (TBD)      | 	To Be Determined (TBD)       | To Be Determined (TBD)     |
+| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	To Be Determined (TBD) | To Be Determined (TBD)      | 	To Be Determined (TBD)       | To Be Determined (TBD)     |
+| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	To Be Determined (TBD) | To Be Determined (TBD)      | 	To Be Determined (TBD)       | To Be Determined (TBD)     |
+| [CVE-2026-21528](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21528) | 	Azure IoT Explorer Information Disclosure Vulnerability<br />Vector String: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:U/RL:O/RC:C<br />Metrics: CVSS:3.1 6.5 / 5.7<br />Binding to an unrestricted ip address in Azure IoT Explorer allows an unauthorized attacker to disclose information over a network | Important (High)      | 	Microsoft Azure IoT Explorer       | 2/10/2026     |
+| [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 1/31/2026     |
+| [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 12/31/2025     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	This time, it involved a vulnerability case that ultimately resulted in identifying a remote command execution vulnerability in the product | Important (High)      | Microsoft Online Services Acknowledgment      | 11/30/2025     |
 [CVE-2025-62595](https://github.com/koajs/koa/security/advisories/GHSA-g8mr-fgfg-5qpc)<br /><br />[GHSA-g8mr-fgfg-5qpc](https://github.com/koajs/koa/security/advisories/GHSA-g8mr-fgfg-5qpc) | 	Open Redirect via Trailing Double-Slash (//) in Koa back Redirect Logic | Medium (4.3)      | Koa.js Framework      | 10/21/2025     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 6/30/2025     |
@@ -98,6 +105,8 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 ## Bug Bounty Program Profiles
 
+
+- [Microsoft Online Services Acknowledgment](https://msrc.microsoft.com/update-guide/acknowledgement/online) - Microsoft Hall of Fame
 
 - [VDP Hall of Fame - Israel National Cyber Directorate](https://www.gov.il/he/pages/vdp_chart) - As of December 2025, I am ranked #99 with a final score of 163 points, based on validated vulnerability reports submitted as part of Israel’s national Vulnerability Disclosure Program.
 
