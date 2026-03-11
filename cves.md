@@ -11,10 +11,10 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
-| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	TBD | TBD      | 	TBD       | XXX     |
-| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	TBD | TBD      | 	TBD       | XXX     |
-| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	TBD | TBD      | 	TBD       | XXX     |
-| [CVE-2026-XXXX](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-XXXXX) | 	TBD | TBD      | 	TBD       | XXX     |
+| [CVE-2026-26121](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26121) | 	Azure IoT Explorer Information Disclosure Vulnerability | Important (High)      | 	Microsoft Azure IoT Explorer       | 3/10/2026     |
+| [CVE-2026-23664](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23664) | 	Azure IoT Explorer Information Disclosure Vulnerability | Important (High)      | 	Microsoft Azure IoT Explorer       | 3/10/2026     |
+| [CVE-2026-23662](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23662) | 	Azure IoT Explorer Information Disclosure Vulnerability | Important (High)      | 	Microsoft Azure IoT Explorer       | 3/10/2026     |
+| [CVE-2026-23661](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23661) | 	Azure IoT Explorer Information Disclosure Vulnerability | Important (High)      | 	Microsoft Azure IoT Explorer       | 3/10/2026     |
 | [CVE-2026-21528](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21528) | 	Azure IoT Explorer Information Disclosure Vulnerability | Important (High)      | 	Microsoft Azure IoT Explorer       | 2/10/2026     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 1/31/2026     |
 | [Hay Mizrachi with Microsoft](https://msrc.microsoft.com/update-guide/acknowledgement/online) | 	--- | ---      | Microsoft Online Services Acknowledgment      | 12/31/2025     |
