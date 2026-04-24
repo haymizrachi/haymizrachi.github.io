@@ -11,6 +11,7 @@ For more information, refer to my <a href="https://www.linkedin.com/in/hay-mizra
 
 | CVE Number | Description                       | Severity | Affected Software | Date Disclosure |
 |------------|-----------------------------------|----------|-------------------|-----------------|
+| [CVE-2026-21515](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-21515) | 	Azure IoT Central Elevation of Privilege Vulnerability | Critical      | 	Microsoft Azure IoT Central       | 4/23/2026     |
 | [CVE-2026-26121](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-26121) | 	Azure IoT Explorer Information Disclosure Vulnerability | Important (High)      | 	Microsoft Azure IoT Explorer       | 3/10/2026     |
 | [CVE-2026-23664](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23664) | 	Azure IoT Explorer Information Disclosure Vulnerability | Important (High)      | 	Microsoft Azure IoT Explorer       | 3/10/2026     |
 | [CVE-2026-23662](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-23662) | 	Azure IoT Explorer Information Disclosure Vulnerability | Important (High)      | 	Microsoft Azure IoT Explorer       | 3/10/2026     |
